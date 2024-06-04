@@ -14,7 +14,7 @@ const OrderTrack = () => {
                             <div className="row border-part">
                                 <div className="col-xl-2 col-md-3 col-sm-4">
                                     <div className="product-detail">
-                                        <img src="../assets/images/fashion/pro/1.jpg" className="img-fluid blur-up lazyload" alt="" />
+                                        <img src="/assets/images/fashion/pro/1.jpg" className="img-fluid blur-up lazyload" alt="" />
                                     </div>
                                 </div>
                                 <div className="col-xl-4 col-lg-5 col-sm-8">
@@ -83,7 +83,7 @@ const OrderTrack = () => {
                                     <div className="order-map">
                                         <iframe
                                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55107.59629446948!2d-97.77629221286301!3d30.316123884942762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644ca7d7a2a6d0d%3A0x209a4c2782a39461!2sCentral%20Market!5e0!3m2!1sen!2sin!4v1607754725548!5m2!1sen!2sin"
-                                            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                            frameborder="0" allowfullscreen="" aria-hidden="false" ></iframe>
                                     </div>
                                 </div>
                             </div>

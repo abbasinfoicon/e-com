@@ -68,10 +68,10 @@ const Profile = () => {
                                     <div className="col-md-6 select_input">
                                         <label for="review">Country *</label>
                                         <select className="form-control" size="1">
-                                            <option value="India">India</option>
-                                            <option value="UAE">UAE</option>
-                                            <option value="U.K">U.K</option>
-                                            <option value="US">US</option>
+                                            <option defaultValue="India">India</option>
+                                            <option defaultValue="UAE">UAE</option>
+                                            <option defaultValue="U.K">U.K</option>
+                                            <option defaultValue="US">US</option>
                                         </select>
                                     </div>
                                     <div className="col-md-6">

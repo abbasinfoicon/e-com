@@ -10,21 +10,14 @@ export const metadata = {
 
 export default function AdminLayout({ children }) {
     return (
-        <html lang="en">
-            <head>
-                <link rel="stylesheet" type="text/css" href="../assets/css/admin.css" />
-            </head>
-            <body>
-                <div className="page-wrapper">
-                    <AdminHeader />
+        <div className="page-wrapper">
+            <AdminHeader />
 
-                    <div className="page-body-wrapper">
-                        <Sidebar />
-                        {children}
-                        <AdminFooter />
-                    </div>
-                </div>
-            </body>
-        </html >
+            <div className="page-body-wrapper">
+                <Sidebar />
+                {children}
+                <AdminFooter />
+            </div>
+        </div>
     );
 }

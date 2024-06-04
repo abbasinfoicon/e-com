@@ -76,7 +76,7 @@ const ThankU = () => {
                         <div className="col-lg-6">
                             <div className="product-order">
                                 <div className="row product-order-detail">
-                                    <div className="col-3"><img src="../assets/images/pro3/27.jpg" alt=""
+                                    <div className="col-3"><img src="/assets/images/pro3/27.jpg" alt=""
                                         className="img-fluid" /></div>
                                     <div className="col-3 order_detail">
                                         <div>
@@ -98,7 +98,7 @@ const ThankU = () => {
                                     </div>
                                 </div>
                                 <div className="row product-order-detail">
-                                    <div className="col-3"><img src="../assets/images/pro3/35.jpg" alt=""
+                                    <div className="col-3"><img src="/assets/images/pro3/35.jpg" alt=""
                                         className="img-fluid" /></div>
                                     <div className="col-3 order_detail">
                                         <div>

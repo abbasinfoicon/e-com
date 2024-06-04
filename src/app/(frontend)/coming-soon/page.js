@@ -15,7 +15,7 @@ const CommingSoon = () => {
                                 <div>
                                     <div className="logo mb-4">
                                         <Link href="#">
-                                            <img src="../assets/images/icon/logo.png" alt="Multikart_fashion" className="img-fluid" />
+                                            <img src="/assets/images/icon/logo.png" alt="Multikart_fashion" className="img-fluid" />
                                         </Link>
                                     </div>
                                     <h2 className="mb-3">

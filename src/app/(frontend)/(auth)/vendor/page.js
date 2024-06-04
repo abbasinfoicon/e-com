@@ -18,7 +18,7 @@ const page = () => {
                                 <div className="dashboard-sidebar">
                                     <div className="profile-top">
                                         <div className="profile-image">
-                                            <img src="../assets/images/logos/17.png" alt="" className="img-fluid" />
+                                            <img src="/assets/images/logos/17.png" alt="" className="img-fluid" />
                                         </div>
                                         <div className="profile-detail">
                                             <h5>Fashion Store</h5>
@@ -47,7 +47,7 @@ const page = () => {
                                             <div className="row">
                                                 <div className="col-md-4">
                                                     <div className="counter-box">
-                                                        <img src="../assets/images/icon/dashboard/order.png" className="img-fluid" />
+                                                        <img src="/assets/images/icon/dashboard/order.png" className="img-fluid" />
                                                         <div>
                                                             <h3>25</h3>
                                                             <h5>total products</h5>
@@ -56,7 +56,7 @@ const page = () => {
                                                 </div>
                                                 <div className="col-md-4">
                                                     <div className="counter-box">
-                                                        <img src="../assets/images/icon/dashboard/sale.png" className="img-fluid" />
+                                                        <img src="/assets/images/icon/dashboard/sale.png" className="img-fluid" />
                                                         <div>
                                                             <h3>12500</h3>
                                                             <h5>total sales</h5>
@@ -65,7 +65,7 @@ const page = () => {
                                                 </div>
                                                 <div className="col-md-4">
                                                     <div className="counter-box">
-                                                        <img src="../assets/images/icon/dashboard/homework.png" className="img-fluid" />
+                                                        <img src="/assets/images/icon/dashboard/homework.png" className="img-fluid" />
                                                         <div>
                                                             <h3>50</h3>
                                                             <h5>order pending</h5>
@@ -107,7 +107,7 @@ const page = () => {
                                                             <tbody>
                                                                 <tr>
                                                                     <th scope="row"><img
-                                                                        src="../assets/images/dashboard/product/1.jpg"
+                                                                        src="/assets/images/dashboard/product/1.jpg"
                                                                         className="" /></th>
                                                                     <td>neck velvet dress</td>
                                                                     <td>$205</td>
@@ -115,14 +115,14 @@ const page = () => {
                                                                 </tr>
                                                                 <tr>
                                                                     <th scope="row"><img
-                                                                        src="../assets/images/dashboard/product/9.jpg"
+                                                                        src="/assets/images/dashboard/product/9.jpg"
                                                                         className="" /></th>
                                                                     <td>belted trench coat</td>
                                                                     <td>$350</td>
                                                                     <td>800</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <th scope="row"><img src="../assets/images/pro3/34.jpg"
+                                                                    <th scope="row"><img src="/assets/images/pro3/34.jpg"
                                                                         className="" /></th>
                                                                     <td>man print tee</td>
                                                                     <td>$150</td>
@@ -214,7 +214,7 @@ const page = () => {
                                                                 <tbody>
                                                                     <tr>
                                                                         <th scope="row"><img
-                                                                            src="../assets/images/dashboard/product/1.jpg"
+                                                                            src="/assets/images/dashboard/product/1.jpg"
                                                                             className="" /></th>
                                                                         <td>neck velvet dress</td>
                                                                         <td>women clothes</td>
@@ -231,7 +231,7 @@ const page = () => {
                                                                     </tr>
                                                                     <tr>
                                                                         <th scope="row"><img
-                                                                            src="../assets/images/dashboard/product/9.jpg"
+                                                                            src="/assets/images/dashboard/product/9.jpg"
                                                                             className="" /></th>
                                                                         <td>belted trench coat</td>
                                                                         <td>women clothes</td>
@@ -247,7 +247,7 @@ const page = () => {
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <th scope="row"><img src="../assets/images/pro3/34.jpg"
+                                                                        <th scope="row"><img src="/assets/images/pro3/34.jpg"
                                                                             className="" /></th>
                                                                         <td>men print tee</td>
                                                                         <td>men clothes</td>
@@ -263,7 +263,7 @@ const page = () => {
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <th scope="row"><img src="../assets/images/pro3/1.jpg"
+                                                                        <th scope="row"><img src="/assets/images/pro3/1.jpg"
                                                                             className="" /></th>
                                                                         <td>woman print tee</td>
                                                                         <td>women clothes</td>
@@ -279,7 +279,7 @@ const page = () => {
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <th scope="row"><img src="../assets/images/pro3/27.jpg"
+                                                                        <th scope="row"><img src="/assets/images/pro3/27.jpg"
                                                                             className="" /></th>
                                                                         <td>men print tee</td>
                                                                         <td>men clothes</td>
@@ -295,7 +295,7 @@ const page = () => {
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <th scope="row"><img src="../assets/images/pro3/36.jpg"
+                                                                        <th scope="row"><img src="/assets/images/pro3/36.jpg"
                                                                             className="" /></th>
                                                                         <td>men print tee</td>
                                                                         <td>men clothes</td>
@@ -545,7 +545,7 @@ const page = () => {
                                                                             <div className="form-check">
                                                                                 <input className="radio_animated form-check-input"
                                                                                     type="radio" name="exampleRadios"
-                                                                                    id="exampleRadios1" value="option1" checked />
+                                                                                    id="exampleRadios1" defaultValue="option1" checked />
                                                                                 <label className="form-check-label"
                                                                                     for="exampleRadios1">
                                                                                     Allow Desktop Notifications
@@ -554,7 +554,7 @@ const page = () => {
                                                                             <div className="form-check">
                                                                                 <input className="radio_animated form-check-input"
                                                                                     type="radio" name="exampleRadios"
-                                                                                    id="exampleRadios2" value="option2" />
+                                                                                    id="exampleRadios2" defaultValue="option2" />
                                                                                 <label className="form-check-label"
                                                                                     for="exampleRadios2">
                                                                                     Enable Notifications
@@ -563,7 +563,7 @@ const page = () => {
                                                                             <div className="form-check">
                                                                                 <input className="radio_animated form-check-input"
                                                                                     type="radio" name="exampleRadios"
-                                                                                    id="exampleRadios3" value="option3" />
+                                                                                    id="exampleRadios3" defaultValue="option3" />
                                                                                 <label className="form-check-label"
                                                                                     for="exampleRadios3">
                                                                                     Get notification for my own activity
@@ -572,7 +572,7 @@ const page = () => {
                                                                             <div className="form-check">
                                                                                 <input className="radio_animated form-check-input"
                                                                                     type="radio" name="exampleRadios"
-                                                                                    id="exampleRadios4" value="option4" />
+                                                                                    id="exampleRadios4" defaultValue="option4" />
                                                                                 <label className="form-check-label"
                                                                                     for="exampleRadios4">
                                                                                     DND
@@ -588,7 +588,7 @@ const page = () => {
                                                                             <div className="form-check">
                                                                                 <input className="radio_animated form-check-input"
                                                                                     type="radio" name="exampleRadios1"
-                                                                                    id="exampleRadios4" value="option4" checked />
+                                                                                    id="exampleRadios4" defaultValue="option4" checked />
                                                                                 <label className="form-check-label"
                                                                                     for="exampleRadios4">
                                                                                     I have a privacy concern
@@ -597,7 +597,7 @@ const page = () => {
                                                                             <div className="form-check">
                                                                                 <input className="radio_animated form-check-input"
                                                                                     type="radio" name="exampleRadios1"
-                                                                                    id="exampleRadios5" value="option5" />
+                                                                                    id="exampleRadios5" defaultValue="option5" />
                                                                                 <label className="form-check-label"
                                                                                     for="exampleRadios5">
                                                                                     This is temporary
@@ -606,7 +606,7 @@ const page = () => {
                                                                             <div className="form-check">
                                                                                 <input className="radio_animated form-check-input"
                                                                                     type="radio" name="exampleRadios1"
-                                                                                    id="exampleRadios6" value="option6" />
+                                                                                    id="exampleRadios6" defaultValue="option6" />
                                                                                 <label className="form-check-label"
                                                                                     for="exampleRadios6">
                                                                                     other
@@ -625,7 +625,7 @@ const page = () => {
                                                                             <div className="form-check">
                                                                                 <input className="radio_animated form-check-input"
                                                                                     type="radio" name="exampleRadios3"
-                                                                                    id="exampleRadios7" value="option7" checked />
+                                                                                    id="exampleRadios7" defaultValue="option7" checked />
                                                                                 <label className="form-check-label"
                                                                                     for="exampleRadios7">
                                                                                     No longer usable
@@ -634,7 +634,7 @@ const page = () => {
                                                                             <div className="form-check">
                                                                                 <input className="radio_animated form-check-input"
                                                                                     type="radio" name="exampleRadios3"
-                                                                                    id="exampleRadios8" value="option8" />
+                                                                                    id="exampleRadios8" defaultValue="option8" />
                                                                                 <label className="form-check-label"
                                                                                     for="exampleRadios8">
                                                                                     Want to switch on other account
@@ -643,7 +643,7 @@ const page = () => {
                                                                             <div className="form-check">
                                                                                 <input className="radio_animated form-check-input"
                                                                                     type="radio" name="exampleRadios3"
-                                                                                    id="exampleRadios9" value="option9" />
+                                                                                    id="exampleRadios9" defaultValue="option9" />
                                                                                 <label className="form-check-label"
                                                                                     for="exampleRadios9">
                                                                                     other

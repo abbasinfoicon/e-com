@@ -13,7 +13,7 @@ const BlogDetails = () => {
                         <div className='col-xl-9 col-lg-8 col-md-7'>
                             <div className="row">
                                 <div className="col-sm-12 blog-detail">
-                                    <img src="../assets/images/about/about-us.jpg" className="img-fluid" alt="" />
+                                    <img src="/assets/images/about/about-us.jpg" className="img-fluid" alt="" />
                                     <h3>Also the leap into electronic typesetting, remaining essentially unchanged.</h3>
                                     <ul className="post-social">
                                         <li>25 January 2018</li>
@@ -46,10 +46,10 @@ const BlogDetails = () => {
 
                             <div className="row section-b-space blog-advance">
                                 <div className="col-lg-6">
-                                    <div><img src="../assets/images/blog/1.jpg" className="img-fluid bg-img" alt="" /></div>
+                                    <div><img src="/assets/images/blog/1.jpg" className="img-fluid bg-img" alt="" /></div>
                                 </div>
                                 <div className="col-lg-6">
-                                    <div><img src="../assets/images/blog/2.jpg" className="img-fluid bg-img" alt="" /></div>
+                                    <div><img src="/assets/images/blog/2.jpg" className="img-fluid bg-img" alt="" /></div>
                                 </div>
                                 <div className="col-lg-6">
                                     <ul>
@@ -90,7 +90,7 @@ const BlogDetails = () => {
                                 <div className="col-sm-12">
                                     <ul className="comment-section">
                                         <li>
-                                            <div className="media"><img src="../assets/images/avtar.jpg" alt="Generic placeholder image" />
+                                            <div className="media"><img src="/assets/images/avtar.jpg" alt="Generic placeholder image" />
                                                 <div className="media-body">
                                                     <h6>Mark Jecno <span>( 12 Jannuary 2018 at 1:30AM )</span></h6>
                                                     <p>Donec rhoncus massa quis nibh imperdiet dictum. Vestibulum id est sit amet felis
@@ -104,7 +104,7 @@ const BlogDetails = () => {
                                             </div>
                                         </li>
                                         <li>
-                                            <div className="media"><img src="../assets/images/2.jpg" alt="Generic placeholder image" />
+                                            <div className="media"><img src="/assets/images/2.jpg" alt="Generic placeholder image" />
                                                 <div className="media-body">
                                                     <h6>Mark Jecno <span>( 12 Jannuary 2018 at 1:30AM )</span></h6>
                                                     <p>Donec rhoncus massa quis nibh imperdiet dictum. Vestibulum id est sit amet felis
@@ -118,7 +118,7 @@ const BlogDetails = () => {
                                             </div>
                                         </li>
                                         <li>
-                                            <div className="media"><img src="../assets/images/20.jpg" alt="Generic placeholder image" />
+                                            <div className="media"><img src="/assets/images/20.jpg" alt="Generic placeholder image" />
                                                 <div className="media-body">
                                                     <h6>Mark Jecno <span>( 12 Jannuary 2018 at 1:30AM )</span></h6>
                                                     <p>Donec rhoncus massa quis nibh imperdiet dictum. Vestibulum id est sit amet felis
@@ -170,7 +170,7 @@ const BlogDetails = () => {
                                     <ul className="recent-blog">
                                         <li>
                                             <div className="media"> <Link href="/blog/1"><img className="img-fluid"
-                                                src="../assets/images/blog/1.jpg" alt="Generic placeholder image" /></Link>
+                                                src="/assets/images/blog/1.jpg" alt="Generic placeholder image" /></Link>
                                                 <div className="media-body align-self-center">
                                                     <h6>25 Dec 2018</h6>
                                                     <p>0 hits</p>
@@ -179,7 +179,7 @@ const BlogDetails = () => {
                                         </li>
                                         <li>
                                             <div className="media"> <Link href="/blog/1"><img className="img-fluid"
-                                                src="../assets/images/blog/2.jpg" alt="Generic placeholder image" /></Link>
+                                                src="/assets/images/blog/2.jpg" alt="Generic placeholder image" /></Link>
                                                 <div className="media-body align-self-center">
                                                     <h6>25 Dec 2018</h6>
                                                     <p>0 hits</p>
@@ -188,7 +188,7 @@ const BlogDetails = () => {
                                         </li>
                                         <li>
                                             <div className="media"> <Link href="/blog/1"><img className="img-fluid"
-                                                src="../assets/images/blog/3.jpg" alt="Generic placeholder image" /></Link>
+                                                src="/assets/images/blog/3.jpg" alt="Generic placeholder image" /></Link>
                                                 <div className="media-body align-self-center">
                                                     <h6>25 Dec 2018</h6>
                                                     <p>0 hits</p>
@@ -197,7 +197,7 @@ const BlogDetails = () => {
                                         </li>
                                         <li>
                                             <div className="media"> <Link href="/blog/1"><img className="img-fluid"
-                                                src="../assets/images/blog/4.jpg" alt="Generic placeholder image" /></Link>
+                                                src="/assets/images/blog/4.jpg" alt="Generic placeholder image" /></Link>
                                                 <div className="media-body align-self-center">
                                                     <h6>25 Dec 2018</h6>
                                                     <p>0 hits</p>
@@ -206,7 +206,7 @@ const BlogDetails = () => {
                                         </li>
                                         <li>
                                             <div className="media"> <Link href="/blog/1"><img className="img-fluid"
-                                                src="../assets/images/blog/5.jpg" alt="Generic placeholder image" /></Link>
+                                                src="/assets/images/blog/5.jpg" alt="Generic placeholder image" /></Link>
                                                 <div className="media-body align-self-center">
                                                     <h6>25 Dec 2018</h6>
                                                     <p>0 hits</p>

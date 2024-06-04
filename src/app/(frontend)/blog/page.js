@@ -14,7 +14,7 @@ const page = () => {
               <div className="row blog-media">
                 <div className="col-xl-6">
                   <div className="blog-left">
-                    <Link href="/blog/1"><img src="../assets/images/blog/1.jpg"
+                    <Link href="/blog/1"><img src="/assets/images/blog/1.jpg"
                       className="img-fluid bg-img" alt="" /></Link>
                   </div>
                 </div>
@@ -41,7 +41,7 @@ const page = () => {
               <div className="row blog-media">
                 <div className="col-xl-6">
                   <div className="blog-left">
-                    <Link href="/blog/1"><img src="../assets/images/blog/2.jpg"
+                    <Link href="/blog/1"><img src="/assets/images/blog/2.jpg"
                       className="img-fluid bg-img" alt="" /></Link>
                   </div>
                 </div>
@@ -68,7 +68,7 @@ const page = () => {
               <div className="row blog-media">
                 <div className="col-xl-6">
                   <div className="blog-left">
-                    <Link href="/blog/1"><img src="../assets/images/blog/3.jpg"
+                    <Link href="/blog/1"><img src="/assets/images/blog/3.jpg"
                       className="img-fluid bg-img" alt="" /></Link>
                   </div>
                 </div>
@@ -95,7 +95,7 @@ const page = () => {
               <div className="row blog-media">
                 <div className="col-xl-6">
                   <div className="blog-left">
-                    <Link href="/blog/1"><img src="../assets/images/blog/4.jpg"
+                    <Link href="/blog/1"><img src="/assets/images/blog/4.jpg"
                       className="img-fluid bg-img" alt="" /></Link>
                   </div>
                 </div>
@@ -128,7 +128,7 @@ const page = () => {
                   <ul className="recent-blog">
                     <li>
                       <div className="media"> <Link href="/blog/1"><img className="img-fluid"
-                        src="../assets/images/blog/1.jpg" alt="Generic placeholder image" /></Link>
+                        src="/assets/images/blog/1.jpg" alt="Generic placeholder image" /></Link>
                         <div className="media-body align-self-center">
                           <h6>25 Dec 2018</h6>
                           <p>0 hits</p>
@@ -137,7 +137,7 @@ const page = () => {
                     </li>
                     <li>
                       <div className="media"> <Link href="/blog/1"><img className="img-fluid"
-                        src="../assets/images/blog/2.jpg" alt="Generic placeholder image" /></Link>
+                        src="/assets/images/blog/2.jpg" alt="Generic placeholder image" /></Link>
                         <div className="media-body align-self-center">
                           <h6>25 Dec 2018</h6>
                           <p>0 hits</p>
@@ -146,7 +146,7 @@ const page = () => {
                     </li>
                     <li>
                       <div className="media"> <Link href="/blog/1"><img className="img-fluid"
-                        src="../assets/images/blog/3.jpg" alt="Generic placeholder image" /></Link>
+                        src="/assets/images/blog/3.jpg" alt="Generic placeholder image" /></Link>
                         <div className="media-body align-self-center">
                           <h6>25 Dec 2018</h6>
                           <p>0 hits</p>
@@ -155,7 +155,7 @@ const page = () => {
                     </li>
                     <li>
                       <div className="media"> <Link href="/blog/1"><img className="img-fluid"
-                        src="../assets/images/blog/4.jpg" alt="Generic placeholder image" /></Link>
+                        src="/assets/images/blog/4.jpg" alt="Generic placeholder image" /></Link>
                         <div className="media-body align-self-center">
                           <h6>25 Dec 2018</h6>
                           <p>0 hits</p>
@@ -164,7 +164,7 @@ const page = () => {
                     </li>
                     <li>
                       <div className="media"> <Link href="/blog/1"><img className="img-fluid"
-                        src="../assets/images/blog/5.jpg" alt="Generic placeholder image" /></Link>
+                        src="/assets/images/blog/5.jpg" alt="Generic placeholder image" /></Link>
                         <div className="media-body align-self-center">
                           <h6>25 Dec 2018</h6>
                           <p>0 hits</p>

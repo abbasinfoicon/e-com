@@ -18,7 +18,7 @@ const Contact = () => {
               <div className="contact-right">
                 <ul>
                   <li>
-                    <div className="contact-icon"><img src="../assets/images/icon/phone.png"
+                    <div className="contact-icon"><img src="/assets/images/icon/phone.png"
                       alt="Generic placeholder image" />
                       <h6>Contact Us</h6>
                     </div>
@@ -37,7 +37,7 @@ const Contact = () => {
                     </div>
                   </li>
                   <li>
-                    <div className="contact-icon"><img src="../assets/images/icon/email.png"
+                    <div className="contact-icon"><img src="/assets/images/icon/email.png"
                       alt="Generic placeholder image" />
                       <h6>Address</h6>
                     </div>

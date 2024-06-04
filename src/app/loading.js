@@ -40,7 +40,7 @@ const loading = () => {
                                         </Link>
                                     </div>
                                     <div className="brand-logo">
-                                        <Link href="/"><img src="../assets/images/icon/logo.png"
+                                        <Link href="/"><img src="/assets/images/icon/logo.png"
                                             className="img-fluid blur-up lazyload" alt="" /></Link>
                                     </div>
                                 </div>
@@ -77,17 +77,17 @@ const loading = () => {
                                         <div className="icon-nav d-none d-sm-block">
                                             <ul>
                                                 <li className="onhover-div mobile-search">
-                                                    <div><img src="../assets/images/icon/search.png"
+                                                    <div><img src="/assets/images/icon/search.png"
                                                         className="img-fluid blur-up lazyload" alt="" /> <i className="ti-search"
                                                            ></i></div>
                                                 </li>
                                                 <li className="onhover-div mobile-setting">
-                                                    <div><img src="../assets/images/icon/setting.png"
+                                                    <div><img src="/assets/images/icon/setting.png"
                                                         className="img-fluid blur-up lazyload" alt="" /> <i
                                                             className="ti-settings"></i></div>
                                                 </li>
                                                 <li className="onhover-div mobile-cart">
-                                                    <div><img src="../assets/images/icon/cart.png"
+                                                    <div><img src="/assets/images/icon/cart.png"
                                                         className="img-fluid blur-up lazyload" alt="" /> <i
                                                             className="ti-shopping-cart"></i></div>
                                                 </li>

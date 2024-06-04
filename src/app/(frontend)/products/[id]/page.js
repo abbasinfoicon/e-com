@@ -34,25 +34,25 @@ const ProductDetails = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <Slider {...options1} className="product-slick">
-                                    <div><img src="../assets/images/pro3/1.jpg" alt=""
+                                    <div><img src="/assets/images/pro3/1.jpg" alt=""
                                         className="img-fluid image_zoom_cls-0" /></div>
-                                    <div><img src="../assets/images/pro3/2.jpg" alt=""
+                                    <div><img src="/assets/images/pro3/2.jpg" alt=""
                                         className="img-fluid image_zoom_cls-1" /></div>
-                                    <div><img src="../assets/images/pro3/27.jpg" alt=""
+                                    <div><img src="/assets/images/pro3/27.jpg" alt=""
                                         className="img-fluid image_zoom_cls-2" /></div>
-                                    <div><img src="../assets/images/pro3/27.jpg" alt=""
+                                    <div><img src="/assets/images/pro3/27.jpg" alt=""
                                         className="img-fluid image_zoom_cls-3" /></div>
                                 </Slider>
                                 <div className="row">
                                     <div className="col-12 p-0">
                                         <Slider {...options2} className="slider-nav">
-                                            <div><img src="../assets/images/pro3/1.jpg" alt=""
+                                            <div><img src="/assets/images/pro3/1.jpg" alt=""
                                                 className="img-fluid" /></div>
-                                            <div><img src="../assets/images/pro3/2.jpg" alt=""
+                                            <div><img src="/assets/images/pro3/2.jpg" alt=""
                                                 className="img-fluid" /></div>
-                                            <div><img src="../assets/images/pro3/27.jpg" alt=""
+                                            <div><img src="/assets/images/pro3/27.jpg" alt=""
                                                 className="img-fluid" /></div>
-                                            <div><img src="../assets/images/pro3/27.jpg" alt=""
+                                            <div><img src="/assets/images/pro3/27.jpg" alt=""
                                                 className="img-fluid" /></div>
                                         </Slider>
                                     </div>
@@ -64,12 +64,12 @@ const ProductDetails = () => {
                                     <div className="product-count">
                                         <ul>
                                             <li>
-                                                <img src="../assets/images/fire.gif" className="img-fluid" alt="image" />
+                                                <img src="/assets/images/fire.gif" className="img-fluid" alt="image" />
                                                 <span className="p-counter">37</span>
                                                 <span className="lang">orders in last 24 hours</span>
                                             </li>
                                             <li>
-                                                <img src="../assets/images/person.gif" className="img-fluid user_img" alt="image" />
+                                                <img src="/assets/images/person.gif" className="img-fluid user_img" alt="image" />
                                                 <span className="p-counter">44</span>
                                                 <span className="lang">active view this</span>
                                             </li>
@@ -96,8 +96,7 @@ const ProductDetails = () => {
                                         <h6 className="product-title size-text">select size <span><Link href="#" data-bs-toggle="modal"
                                             data-bs-target="#sizemodal">size
                                             chart</Link></span></h6>
-                                        <div className="modal fade" id="sizemodal" tabindex="-1" role="dialog"
-                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div className="modal fade">
                                             <div className="modal-dialog modal-dialog-centered" role="document">
                                                 <div className="modal-content">
                                                     <div className="modal-header">
@@ -106,7 +105,7 @@ const ProductDetails = () => {
                                                         <button type="button" className="btn-close" data-bs-dismiss="modal"
                                                             aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                                     </div>
-                                                    <div className="modal-body"><img src="../assets/images/size-chart.jpg" alt=""
+                                                    <div className="modal-body"><img src="/assets/images/size-chart.jpg" alt=""
                                                         className="img-fluid" /></div>
                                                 </div>
                                             </div>
@@ -114,10 +113,10 @@ const ProductDetails = () => {
                                         <h6 className="error-message">please select size</h6>
                                         <div className="size-box">
                                             <ul>
-                                                <li><Link href="javascript:void(0)">s</Link></li>
-                                                <li><Link href="javascript:void(0)">m</Link></li>
-                                                <li><Link href="javascript:void(0)">l</Link></li>
-                                                <li><Link href="javascript:void(0)">xl</Link></li>
+                                                <li><Link href="#">s</Link></li>
+                                                <li><Link href="#">m</Link></li>
+                                                <li><Link href="#">l</Link></li>
+                                                <li><Link href="#">xl</Link></li>
                                             </ul>
                                         </div>
                                         <h6 className="product-title">quantity</h6>
@@ -125,21 +124,21 @@ const ProductDetails = () => {
                                             <div className="input-group"><span className="input-group-prepend"><button type="button"
                                                 className="btn quantity-left-minus" data-type="minus" data-field=""><i
                                                     className="ti-angle-left"></i></button> </span>
-                                                <input type="text" name="quantity" className="form-control input-number" value="1" />
+                                                <input type="text" name="quantity" className="form-control input-number" defaultValue="1" />
                                                 <span className="input-group-prepend"><button type="button"
                                                     className="btn quantity-right-plus" data-type="plus" data-field=""><i
                                                         className="ti-angle-right"></i></button></span>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="product-buttons"><Link href="javascript:void(0)" id="cartEffect"
+                                    <div className="product-buttons"><Link href="#" id="cartEffect"
                                         className="btn btn-solid hover-solid btn-animation"><i className="fa fa-shopping-cart me-1"
                                             aria-hidden="true"></i> add to cart</Link> <Link href="#" className="btn btn-solid"><i
                                                 className="fa fa-bookmark fz-16 me-2" aria-hidden="true"></i>wishlist</Link></div>
                                     <div className="product-count">
                                         <ul>
                                             <li>
-                                                <img src="../assets/images/icon/truck.png" className="img-fluid" alt="image" />
+                                                <img src="/assets/images/icon/truck.png" className="img-fluid" alt="image" />
                                                 <span className="lang">Free shipping for orders above $500 USD</span>
                                             </li>
                                         </ul>
@@ -173,7 +172,7 @@ const ProductDetails = () => {
                                     </div>
                                     <div className="border-product">
                                         <h6 className="product-title">100% secure payment</h6>
-                                        <img src="../assets/images/payment.png" className="img-fluid mt-1" alt="" />
+                                        <img src="/assets/images/payment.png" className="img-fluid mt-1" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -318,16 +317,16 @@ const ProductDetails = () => {
                             <div className="product-box">
                                 <div className="img-wrapper">
                                     <div className="front">
-                                        <Link href="#"><img src="../assets/images/pro3/33.jpg"
+                                        <Link href="#"><img src="/assets/images/pro3/33.jpg"
                                             className="img-fluid bg-img" alt="" /></Link>
                                     </div>
                                     <div className="back">
-                                        <Link href="#"><img src="../assets/images/pro3/34.jpg"
+                                        <Link href="#"><img src="/assets/images/pro3/34.jpg"
                                             className="img-fluid bg-img" alt="" /></Link>
                                     </div>
                                     <div className="cart-info cart-wrap">
                                         <button data-bs-toggle="modal" data-bs-target="#addtocart" title="Add to cart"><i
-                                            className="ti-shopping-cart"></i></button> <Link href="javascript:void(0)"
+                                            className="ti-shopping-cart"></i></button> <Link href="#"
                                                 title="Add to Wishlist"><i className="ti-heart" aria-hidden="true"></i></Link> <Link href="#"
                                                     data-bs-toggle="modal" data-bs-target="#quick-view" title="Quick View"><i
                                                         className="ti-search" aria-hidden="true"></i></Link> <Link href="/compare"
@@ -354,16 +353,16 @@ const ProductDetails = () => {
                             <div className="product-box">
                                 <div className="img-wrapper">
                                     <div className="front">
-                                        <Link href="#"><img src="../assets/images/pro3/1.jpg"
+                                        <Link href="#"><img src="/assets/images/pro3/1.jpg"
                                             className="img-fluid bg-img" alt="" /></Link>
                                     </div>
                                     <div className="back">
-                                        <Link href="#"><img src="../assets/images/pro3/2.jpg"
+                                        <Link href="#"><img src="/assets/images/pro3/2.jpg"
                                             className="img-fluid bg-img" alt="" /></Link>
                                     </div>
                                     <div className="cart-info cart-wrap">
                                         <button data-bs-toggle="modal" data-bs-target="#addtocart" title="Add to cart"><i
-                                            className="ti-shopping-cart"></i></button> <Link href="javascript:void(0)"
+                                            className="ti-shopping-cart"></i></button> <Link href="#"
                                                 title="Add to Wishlist"><i className="ti-heart" aria-hidden="true"></i></Link> <Link href="#"
                                                     data-bs-toggle="modal" data-bs-target="#quick-view" title="Quick View"><i
                                                         className="ti-search" aria-hidden="true"></i></Link> <Link href="/compare"
@@ -390,16 +389,16 @@ const ProductDetails = () => {
                             <div className="product-box">
                                 <div className="img-wrapper">
                                     <div className="front">
-                                        <Link href="#"><img src="../assets/images/pro3/27.jpg"
+                                        <Link href="#"><img src="/assets/images/pro3/27.jpg"
                                             className="img-fluid bg-img" alt="" /></Link>
                                     </div>
                                     <div className="back">
-                                        <Link href="#"><img src="../assets/images/pro3/28.jpg"
+                                        <Link href="#"><img src="/assets/images/pro3/28.jpg"
                                             className="img-fluid bg-img" alt="" /></Link>
                                     </div>
                                     <div className="cart-info cart-wrap">
                                         <button data-bs-toggle="modal" data-bs-target="#addtocart" title="Add to cart"><i
-                                            className="ti-shopping-cart"></i></button> <Link href="javascript:void(0)"
+                                            className="ti-shopping-cart"></i></button> <Link href="#"
                                                 title="Add to Wishlist"><i className="ti-heart" aria-hidden="true"></i></Link> <Link href="#"
                                                     data-bs-toggle="modal" data-bs-target="#quick-view" title="Quick View"><i
                                                         className="ti-search" aria-hidden="true"></i></Link> <Link href="/compare"
@@ -426,16 +425,16 @@ const ProductDetails = () => {
                             <div className="product-box">
                                 <div className="img-wrapper">
                                     <div className="front">
-                                        <Link href="#"><img src="../assets/images/pro3/35.jpg"
+                                        <Link href="#"><img src="/assets/images/pro3/35.jpg"
                                             className="img-fluid bg-img" alt="" /></Link>
                                     </div>
                                     <div className="back">
-                                        <Link href="#"><img src="../assets/images/pro3/36.jpg"
+                                        <Link href="#"><img src="/assets/images/pro3/36.jpg"
                                             className="img-fluid bg-img" alt="" /></Link>
                                     </div>
                                     <div className="cart-info cart-wrap">
                                         <button data-bs-toggle="modal" data-bs-target="#addtocart" title="Add to cart"><i
-                                            className="ti-shopping-cart"></i></button> <Link href="javascript:void(0)"
+                                            className="ti-shopping-cart"></i></button> <Link href="#"
                                                 title="Add to Wishlist"><i className="ti-heart" aria-hidden="true"></i></Link> <Link href="#"
                                                     data-bs-toggle="modal" data-bs-target="#quick-view" title="Quick View"><i
                                                         className="ti-search" aria-hidden="true"></i></Link> <Link href="/compare"
@@ -462,16 +461,16 @@ const ProductDetails = () => {
                             <div className="product-box">
                                 <div className="img-wrapper">
                                     <div className="front">
-                                        <Link href="#"><img src="../assets/images/pro3/2.jpg"
+                                        <Link href="#"><img src="/assets/images/pro3/2.jpg"
                                             className="img-fluid bg-img" alt="" /></Link>
                                     </div>
                                     <div className="back">
-                                        <Link href="#"><img src="../assets/images/pro3/1.jpg"
+                                        <Link href="#"><img src="/assets/images/pro3/1.jpg"
                                             className="img-fluid bg-img" alt="" /></Link>
                                     </div>
                                     <div className="cart-info cart-wrap">
                                         <button data-bs-toggle="modal" data-bs-target="#addtocart" title="Add to cart"><i
-                                            className="ti-shopping-cart"></i></button> <Link href="javascript:void(0)"
+                                            className="ti-shopping-cart"></i></button> <Link href="#"
                                                 title="Add to Wishlist"><i className="ti-heart" aria-hidden="true"></i></Link> <Link href="#"
                                                     data-bs-toggle="modal" data-bs-target="#quick-view" title="Quick View"><i
                                                         className="ti-search" aria-hidden="true"></i></Link> <Link href="/compare"
@@ -498,16 +497,16 @@ const ProductDetails = () => {
                             <div className="product-box">
                                 <div className="img-wrapper">
                                     <div className="front">
-                                        <Link href="#"><img src="../assets/images/pro3/28.jpg"
+                                        <Link href="#"><img src="/assets/images/pro3/28.jpg"
                                             className="img-fluid bg-img" alt="" /></Link>
                                     </div>
                                     <div className="back">
-                                        <Link href="#"><img src="../assets/images/pro3/27.jpg"
+                                        <Link href="#"><img src="/assets/images/pro3/27.jpg"
                                             className="img-fluid bg-img" alt="" /></Link>
                                     </div>
                                     <div className="cart-info cart-wrap">
                                         <button data-bs-toggle="modal" data-bs-target="#addtocart" title="Add to cart"><i
-                                            className="ti-shopping-cart"></i></button> <Link href="javascript:void(0)"
+                                            className="ti-shopping-cart"></i></button> <Link href="#"
                                                 title="Add to Wishlist"><i className="ti-heart" aria-hidden="true"></i></Link> <Link href="#"
                                                     data-bs-toggle="modal" data-bs-target="#quick-view" title="Quick View"><i
                                                         className="ti-search" aria-hidden="true"></i></Link> <Link href="/compare"

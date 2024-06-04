@@ -142,7 +142,7 @@ const Frontend = () => {
                 <Slider {...options} className="home-slider">
                     <div className='pos-rel'>
                         <div className="home text-center">
-                            <img src="../assets/images/home-banner/1.jpg" alt="" className="bg-img" />
+                            <img src="/assets/images/home-banner/1.jpg" alt="" className="bg-img" />
                             <div className="slider-contain">
                                 <div className="custom-text">
                                     <h4>welcome to fashion</h4>
@@ -154,7 +154,7 @@ const Frontend = () => {
                     </div>
                     <div className='pos-rel'>
                         <div className="home text-center">
-                            <img src="../assets/images/home-banner/2.jpg" alt="" className="bg-img" />
+                            <img src="/assets/images/home-banner/2.jpg" alt="" className="bg-img" />
                             <div className="slider-contain">
                                 <div className="custom-text">
                                     <h4>welcome to fashion</h4>
@@ -174,7 +174,7 @@ const Frontend = () => {
                             <Link href="#">
                                 <div className="collection-banner p-right text-center">
                                     <div className="img-part">
-                                        <img src="../assets/images/sub-banner1.jpg" className="img-fluid bg-img"
+                                        <img src="/assets/images/sub-banner1.jpg" className="img-fluid bg-img"
                                             alt="" />
                                     </div>
                                     <div className="contain-banner">
@@ -190,7 +190,7 @@ const Frontend = () => {
                             <Link href="#">
                                 <div className="collection-banner p-right text-center">
                                     <div className="img-part">
-                                        <img src="../assets/images/sub-banner2.jpg" className="img-fluid bg-img"
+                                        <img src="/assets/images/sub-banner2.jpg" className="img-fluid bg-img"
                                             alt="" />
                                     </div>
                                     <div className="contain-banner">
@@ -229,11 +229,11 @@ const Frontend = () => {
                                 <div className="product-box">
                                     <div className="img-wrapper">
                                         <div className="front">
-                                            <Link href="/products/1"><img src="../assets/images/pro3/27.jpg"
+                                            <Link href="/products/1"><img src="/assets/images/pro3/27.jpg"
                                                 className="img-fluid bg-img" alt="" /></Link>
                                         </div>
                                         <div className="back">
-                                            <Link href="/products/1"><img src="../assets/images/pro3/28.jpg"
+                                            <Link href="/products/1"><img src="/assets/images/pro3/28.jpg"
                                                 className="img-fluid bg-img" alt="" /></Link>
                                         </div>
                                         <div className="cart-info cart-wrap">
@@ -272,11 +272,11 @@ const Frontend = () => {
                                             sale</span></div>
                                         <div className="front">
                                             <Link href="/products/1">
-                                                <img src="../assets/images/pro3/1.jpg" className="img-fluid bg-img"
+                                                <img src="/assets/images/pro3/1.jpg" className="img-fluid bg-img"
                                                     alt="" /></Link>
                                         </div>
                                         <div className="back">
-                                            <Link href="/products/1"><img src="../assets/images/pro3/2.jpg"
+                                            <Link href="/products/1"><img src="/assets/images/pro3/2.jpg"
                                                 className="img-fluid bg-img" alt="" /></Link>
                                         </div>
                                         <div className="cart-info cart-wrap">
@@ -309,11 +309,11 @@ const Frontend = () => {
                                         <div className="lable-block"><span className="lable3">new</span> <span className="lable4">on
                                             sale</span></div>
                                         <div className="front">
-                                            <Link href="/products/1"><img src="../assets/images/pro3/33.jpg"
+                                            <Link href="/products/1"><img src="/assets/images/pro3/33.jpg"
                                                 className="img-fluid bg-img" alt="" /></Link>
                                         </div>
                                         <div className="back">
-                                            <Link href="/products/1"><img src="../assets/images/pro3/34.jpg"
+                                            <Link href="/products/1"><img src="/assets/images/pro3/34.jpg"
                                                 className="img-fluid bg-img" alt="" /></Link>
                                         </div>
                                         <div className="cart-info cart-wrap">
@@ -344,11 +344,11 @@ const Frontend = () => {
                                 <div className="product-box">
                                     <div className="img-wrapper">
                                         <div className="front">
-                                            <Link href="/products/1"><img src="../assets/images/pro3/35.jpg"
+                                            <Link href="/products/1"><img src="/assets/images/pro3/35.jpg"
                                                 className="img-fluid bg-img" alt="" /></Link>
                                         </div>
                                         <div className="back">
-                                            <Link href="/products/1"><img src="../assets/images/pro3/36.jpg"
+                                            <Link href="/products/1"><img src="/assets/images/pro3/36.jpg"
                                                 className="img-fluid bg-img" alt="" /></Link>
                                         </div>
                                         <div className="cart-info cart-wrap">
@@ -381,11 +381,11 @@ const Frontend = () => {
                                         <div className="lable-block"><span className="lable3">new</span> <span className="lable4">on
                                             sale</span></div>
                                         <div className="front">
-                                            <Link href="/products/1"><img src="../assets/images/pro3/33.jpg"
+                                            <Link href="/products/1"><img src="/assets/images/pro3/33.jpg"
                                                 className="img-fluid bg-img" alt="" /></Link>
                                         </div>
                                         <div className="back">
-                                            <Link href="/products/1"><img src="../assets/images/pro3/34.jpg"
+                                            <Link href="/products/1"><img src="/assets/images/pro3/34.jpg"
                                                 className="img-fluid bg-img" alt="" /></Link>
                                         </div>
                                         <div className="cart-info cart-wrap">
@@ -420,7 +420,7 @@ const Frontend = () => {
             </section>
 
             <section className="p-0">
-                <div className="full-banner parallax text-center p-left" style={{ backgroundImage: 'url(../assets/images/parallax/1.jpg)' }}>
+                <div className="full-banner parallax text-center p-left" style={{ backgroundImage: 'url(/assets/images/parallax/1.jpg)' }}>
                     <div className="container">
                         <div className="row">
                             <div className="col">
@@ -457,12 +457,12 @@ const Frontend = () => {
                                                 <div className="img-wrapper">
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/27.jpg"
+                                                            src="/assets/images/pro3/27.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/28.jpg"
+                                                            src="/assets/images/pro3/28.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -498,12 +498,12 @@ const Frontend = () => {
                                                         className="lable4">on sale</span></div>
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/1.jpg"
+                                                            src="/assets/images/pro3/1.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/2.jpg"
+                                                            src="/assets/images/pro3/2.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -537,12 +537,12 @@ const Frontend = () => {
                                                 <div className="img-wrapper">
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/33.jpg"
+                                                            src="/assets/images/pro3/33.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/34.jpg"
+                                                            src="/assets/images/pro3/34.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -578,12 +578,12 @@ const Frontend = () => {
                                                         className="lable4">on sale</span></div>
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/35.jpg"
+                                                            src="/assets/images/pro3/35.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/36.jpg"
+                                                            src="/assets/images/pro3/36.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -619,12 +619,12 @@ const Frontend = () => {
                                                         className="lable4">on sale</span></div>
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/33.jpg"
+                                                            src="/assets/images/pro3/33.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/34.jpg"
+                                                            src="/assets/images/pro3/34.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -658,12 +658,12 @@ const Frontend = () => {
                                                 <div className="img-wrapper">
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/35.jpg"
+                                                            src="/assets/images/pro3/35.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/36.jpg"
+                                                            src="/assets/images/pro3/36.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -699,12 +699,12 @@ const Frontend = () => {
                                                         className="lable4">on sale</span></div>
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/1.jpg"
+                                                            src="/assets/images/pro3/1.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/2.jpg"
+                                                            src="/assets/images/pro3/2.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -738,12 +738,12 @@ const Frontend = () => {
                                                 <div className="img-wrapper">
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/27.jpg"
+                                                            src="/assets/images/pro3/27.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/28.jpg"
+                                                            src="/assets/images/pro3/28.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -783,12 +783,12 @@ const Frontend = () => {
                                                         className="lable4">on sale</span></div>
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/33.jpg"
+                                                            src="/assets/images/pro3/33.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/34.jpg"
+                                                            src="/assets/images/pro3/34.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -822,12 +822,12 @@ const Frontend = () => {
                                                 <div className="img-wrapper">
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/35.jpg"
+                                                            src="/assets/images/pro3/35.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/36.jpg"
+                                                            src="/assets/images/pro3/36.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -863,12 +863,12 @@ const Frontend = () => {
                                                         className="lable4">on sale</span></div>
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/1.jpg"
+                                                            src="/assets/images/pro3/1.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/2.jpg"
+                                                            src="/assets/images/pro3/2.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -902,12 +902,12 @@ const Frontend = () => {
                                                 <div className="img-wrapper">
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/27.jpg"
+                                                            src="/assets/images/pro3/27.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/28.jpg"
+                                                            src="/assets/images/pro3/28.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -941,12 +941,12 @@ const Frontend = () => {
                                                 <div className="img-wrapper">
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/27.jpg"
+                                                            src="/assets/images/pro3/27.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/28.jpg"
+                                                            src="/assets/images/pro3/28.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -982,12 +982,12 @@ const Frontend = () => {
                                                         className="lable4">on sale</span></div>
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/1.jpg"
+                                                            src="/assets/images/pro3/1.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/2.jpg"
+                                                            src="/assets/images/pro3/2.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -1021,12 +1021,12 @@ const Frontend = () => {
                                                 <div className="img-wrapper">
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/33.jpg"
+                                                            src="/assets/images/pro3/33.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/34.jpg"
+                                                            src="/assets/images/pro3/34.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -1062,12 +1062,12 @@ const Frontend = () => {
                                                         className="lable4">on sale</span></div>
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/35.jpg"
+                                                            src="/assets/images/pro3/35.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/36.jpg"
+                                                            src="/assets/images/pro3/36.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -1107,12 +1107,12 @@ const Frontend = () => {
                                                         className="lable4">on sale</span></div>
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/33.jpg"
+                                                            src="/assets/images/pro3/33.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/34.jpg"
+                                                            src="/assets/images/pro3/34.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -1146,12 +1146,12 @@ const Frontend = () => {
                                                 <div className="img-wrapper">
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/27.jpg"
+                                                            src="/assets/images/pro3/27.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/28.jpg"
+                                                            src="/assets/images/pro3/28.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -1185,12 +1185,12 @@ const Frontend = () => {
                                                 <div className="img-wrapper">
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/33.jpg"
+                                                            src="/assets/images/pro3/33.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/34.jpg"
+                                                            src="/assets/images/pro3/34.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -1226,12 +1226,12 @@ const Frontend = () => {
                                                         className="lable4">on sale</span></div>
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/1.jpg"
+                                                            src="/assets/images/pro3/1.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/2.jpg"
+                                                            src="/assets/images/pro3/2.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -1267,12 +1267,12 @@ const Frontend = () => {
                                                         className="lable4">on sale</span></div>
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/35.jpg"
+                                                            src="/assets/images/pro3/35.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/36.jpg"
+                                                            src="/assets/images/pro3/36.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -1306,12 +1306,12 @@ const Frontend = () => {
                                                 <div className="img-wrapper">
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/35.jpg"
+                                                            src="/assets/images/pro3/35.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/36.jpg"
+                                                            src="/assets/images/pro3/36.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -1347,12 +1347,12 @@ const Frontend = () => {
                                                         className="lable4">on sale</span></div>
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/1.jpg"
+                                                            src="/assets/images/pro3/1.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/2.jpg"
+                                                            src="/assets/images/pro3/2.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -1386,12 +1386,12 @@ const Frontend = () => {
                                                 <div className="img-wrapper">
                                                     <div className="front">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/27.jpg"
+                                                            src="/assets/images/pro3/27.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="back">
                                                         <Link href="/products/1"><img
-                                                            src="../assets/images/pro3/28.jpg"
+                                                            src="/assets/images/pro3/28.jpg"
                                                             className="img-fluid bg-img" alt="" /></Link>
                                                     </div>
                                                     <div className="cart-info cart-wrap">
@@ -1483,7 +1483,7 @@ const Frontend = () => {
                                     <Link href="#">
                                         <div className="classic-effect">
                                             <div>
-                                                <img src="../assets/images/blog/1.jpg" className="img-fluid bg-img"
+                                                <img src="/assets/images/blog/1.jpg" className="img-fluid bg-img"
                                                     alt="" />
                                             </div>
                                             <span></span>
@@ -1502,7 +1502,7 @@ const Frontend = () => {
                                     <Link href="#">
                                         <div className="classic-effect">
                                             <div>
-                                                <img src="../assets/images/blog/2.jpg" className="img-fluid bg-img"
+                                                <img src="/assets/images/blog/2.jpg" className="img-fluid bg-img"
                                                     alt="" />
                                             </div>
                                             <span></span>
@@ -1521,7 +1521,7 @@ const Frontend = () => {
                                     <Link href="#">
                                         <div className="classic-effect">
                                             <div>
-                                                <img src="../assets/images/blog/3.jpg" className="img-fluid bg-img"
+                                                <img src="/assets/images/blog/3.jpg" className="img-fluid bg-img"
                                                     alt="" />
                                             </div>
                                             <span></span>
@@ -1540,7 +1540,7 @@ const Frontend = () => {
                                     <Link href="#">
                                         <div className="classic-effect">
                                             <div>
-                                                <img src="../assets/images/blog/4.jpg" className="img-fluid bg-img"
+                                                <img src="/assets/images/blog/4.jpg" className="img-fluid bg-img"
                                                     alt="" />
                                             </div>
                                             <span></span>
@@ -1559,7 +1559,7 @@ const Frontend = () => {
                                     <Link href="#">
                                         <div className="classic-effect">
                                             <div>
-                                                <img src="../assets/images/blog/5.jpg" className="img-fluid bg-img"
+                                                <img src="/assets/images/blog/5.jpg" className="img-fluid bg-img"
                                                     alt="" />
                                             </div>
                                             <span></span>
@@ -1588,7 +1588,7 @@ const Frontend = () => {
                             <Slider {...slide7} className="no-arrow slick-instagram">
                                 <div>
                                     <Link href="#">
-                                        <div className="instagram-box"> <img src="../assets/images/slider/2.jpg" className="bg-img"
+                                        <div className="instagram-box"> <img src="/assets/images/slider/2.jpg" className="bg-img"
                                             alt="img" />
                                             <div className="overlay"><i className="fa fa-instagram"></i></div>
                                         </div>
@@ -1596,7 +1596,7 @@ const Frontend = () => {
                                 </div>
                                 <div>
                                     <Link href="#">
-                                        <div className="instagram-box"> <img src="../assets/images/slider/3.jpg" className="bg-img"
+                                        <div className="instagram-box"> <img src="/assets/images/slider/3.jpg" className="bg-img"
                                             alt="img" />
                                             <div className="overlay"><i className="fa fa-instagram"></i></div>
                                         </div>
@@ -1604,7 +1604,7 @@ const Frontend = () => {
                                 </div>
                                 <div>
                                     <Link href="#">
-                                        <div className="instagram-box"> <img src="../assets/images/slider/4.jpg" className="bg-img"
+                                        <div className="instagram-box"> <img src="/assets/images/slider/4.jpg" className="bg-img"
                                             alt="img" />
                                             <div className="overlay"><i className="fa fa-instagram"></i></div>
                                         </div>
@@ -1612,7 +1612,7 @@ const Frontend = () => {
                                 </div>
                                 <div>
                                     <Link href="#">
-                                        <div className="instagram-box"> <img src="../assets/images/slider/9.jpg" className="bg-img"
+                                        <div className="instagram-box"> <img src="/assets/images/slider/9.jpg" className="bg-img"
                                             alt="img" />
                                             <div className="overlay"><i className="fa fa-instagram"></i></div>
                                         </div>
@@ -1620,7 +1620,7 @@ const Frontend = () => {
                                 </div>
                                 <div>
                                     <Link href="#">
-                                        <div className="instagram-box"> <img src="../assets/images/slider/6.jpg" className="bg-img"
+                                        <div className="instagram-box"> <img src="/assets/images/slider/6.jpg" className="bg-img"
                                             alt="img" />
                                             <div className="overlay"><i className="fa fa-instagram"></i></div>
                                         </div>
@@ -1628,7 +1628,7 @@ const Frontend = () => {
                                 </div>
                                 <div>
                                     <Link href="#">
-                                        <div className="instagram-box"> <img src="../assets/images/slider/7.jpg" className="bg-img"
+                                        <div className="instagram-box"> <img src="/assets/images/slider/7.jpg" className="bg-img"
                                             alt="img" />
                                             <div className="overlay"><i className="fa fa-instagram"></i></div>
                                         </div>
@@ -1636,7 +1636,7 @@ const Frontend = () => {
                                 </div>
                                 <div>
                                     <Link href="#">
-                                        <div className="instagram-box"> <img src="../assets/images/slider/8.jpg" className="bg-img"
+                                        <div className="instagram-box"> <img src="/assets/images/slider/8.jpg" className="bg-img"
                                             alt="img" />
                                             <div className="overlay"><i className="fa fa-instagram"></i></div>
                                         </div>
@@ -1644,7 +1644,7 @@ const Frontend = () => {
                                 </div>
                                 <div>
                                     <Link href="#">
-                                        <div className="instagram-box"> <img src="../assets/images/slider/9.jpg" className="bg-img"
+                                        <div className="instagram-box"> <img src="/assets/images/slider/9.jpg" className="bg-img"
                                             alt="img" />
                                             <div className="overlay"><i className="fa fa-instagram"></i></div>
                                         </div>
@@ -1652,7 +1652,7 @@ const Frontend = () => {
                                 </div>
                                 <div>
                                     <Link href="#">
-                                        <div className="instagram-box"> <img src="../assets/images/slider/2.jpg" className="bg-img"
+                                        <div className="instagram-box"> <img src="/assets/images/slider/2.jpg" className="bg-img"
                                             alt="img" />
                                             <div className="overlay"><i className="fa fa-instagram"></i></div>
                                         </div>
@@ -1671,42 +1671,42 @@ const Frontend = () => {
                             <Slider {...clients} className="no-arrow">
                                 <div>
                                     <div className="logo-block">
-                                        <Link href="#"><img src="../assets/images/logos/1.png" alt="" /></Link>
+                                        <Link href="#"><img src="/assets/images/logos/1.png" alt="" /></Link>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="logo-block">
-                                        <Link href="#"><img src="../assets/images/logos/2.png" alt="" /></Link>
+                                        <Link href="#"><img src="/assets/images/logos/2.png" alt="" /></Link>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="logo-block">
-                                        <Link href="#"><img src="../assets/images/logos/3.png" alt="" /></Link>
+                                        <Link href="#"><img src="/assets/images/logos/3.png" alt="" /></Link>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="logo-block">
-                                        <Link href="#"><img src="../assets/images/logos/4.png" alt="" /></Link>
+                                        <Link href="#"><img src="/assets/images/logos/4.png" alt="" /></Link>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="logo-block">
-                                        <Link href="#"><img src="../assets/images/logos/5.png" alt="" /></Link>
+                                        <Link href="#"><img src="/assets/images/logos/5.png" alt="" /></Link>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="logo-block">
-                                        <Link href="#"><img src="../assets/images/logos/6.png" alt="" /></Link>
+                                        <Link href="#"><img src="/assets/images/logos/6.png" alt="" /></Link>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="logo-block">
-                                        <Link href="#"><img src="../assets/images/logos/7.png" alt="" /></Link>
+                                        <Link href="#"><img src="/assets/images/logos/7.png" alt="" /></Link>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="logo-block">
-                                        <Link href="#"><img src="../assets/images/logos/8.png" alt="" /></Link>
+                                        <Link href="#"><img src="/assets/images/logos/8.png" alt="" /></Link>
                                     </div>
                                 </div>
                             </Slider>

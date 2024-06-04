@@ -1,7 +1,30 @@
+'use client'
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const AdminHeader = () => {
+    useEffect(() => {
+        const handleToggle = () => {
+            document.querySelector('.page-main-header').classList.toggle('open');
+            document.querySelector('.page-sidebar').classList.toggle('open');
+        };
+
+        const sidebarToggle = document.getElementById('sidebar-toggle');
+        sidebarToggle?.addEventListener('click', handleToggle);
+
+        return () => {
+            sidebarToggle?.removeEventListener('click', handleToggle);
+        };
+    }, []);
+
+    const toggleFullScreen = () => {
+        if (document.fullscreenElement) {
+            document.exitFullscreen();
+        } else {
+            document.documentElement.requestFullscreen();
+        }
+    };
+
     return (
         <div className="page-main-header">
             <div className="main-header-right row">
@@ -9,7 +32,7 @@ const AdminHeader = () => {
                     <div className="logo-wrapper">
                         <Link href="/dashboard">
                             <img className="d-block d-lg-none"
-                                src="../assets/images/dashboard/multikart-logo-black.png" alt="" />
+                                src="/assets/images/dashboard/multikart-logo-black.png" alt="" />
                         </Link>
                     </div>
                 </div>
@@ -37,9 +60,9 @@ const AdminHeader = () => {
                             </form>
                         </li>
                         <li>
-                            <Link className="text-dark" href="#" >
+                            <button className="btn-not text-dark" onClick={toggleFullScreen}>
                                 <i className="fa fa-expand"></i>
-                            </Link>
+                            </button>
                         </li>
                         <li className="onhover-dropdown">
                             <Link className="txt-dark" href="#">
@@ -114,17 +137,15 @@ const AdminHeader = () => {
                         <li className="onhover-dropdown">
                             <div className="media align-items-center">
                                 <img className="align-self-center pull-right img-50 "
-                                    src="../assets/images/dashboard/user3.jpg" alt="header-user" />
+                                    src="/assets/images/dashboard/user3.jpg" alt="header-user" />
                                 <div className="dotted-animation">
                                     <span className="animate-circle"></span>
                                     <span className="main-circle"></span>
                                 </div>
                             </div>
                             <ul className="profile-dropdown onhover-show-div p-20 profile-dropdown-hover">
-                                <li><Link href="#"><i className="fa fa-user"></i> Edit Profile</Link></li>
-                                <li><Link href="#"><i className="fa fa-envelope-o"></i> Inbox</Link></li>
-                                <li><Link href="#"><i className="fa fa-lock"></i> Lock Screen</Link></li>
-                                <li><Link href="#"><i className="fa fa-cog"></i> Settings</Link></li>
+                                <li><Link href="/dashboard/profile"><i className="fa fa-user"></i> Edit Profile</Link></li>
+                                <li><Link href="/dashboard/lock-screen"><i className="fa fa-lock"></i> Lock Screen</Link></li>
                                 <li><Link href="#"><i className="fa fa-sign-out"></i> Logout</Link></li>
                             </ul>
                         </li>

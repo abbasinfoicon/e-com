@@ -41,7 +41,7 @@ const Footer = () => {
                                 <h4>about</h4>
                             </div>
                             <div className="footer-contant">
-                                <div className="footer-logo"><Link href='/'><img src="../assets/images/icon/logo.png" alt="" /></Link></div>
+                                <div className="footer-logo"><Link href='/'><img src="/assets/images/icon/logo.png" alt="" /></Link></div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
                                 <div className="footer-social">
@@ -120,19 +120,19 @@ const Footer = () => {
                             <div className="payment-card-bottom">
                                 <ul>
                                     <li>
-                                        <Link href="#"><img src="../assets/images/icon/visa.png" alt="" /></Link>
+                                        <Link href="#"><img src="/assets/images/icon/visa.png" alt="" /></Link>
                                     </li>
                                     <li>
-                                        <Link href="#"><img src="../assets/images/icon/mastercard.png" alt="" /></Link>
+                                        <Link href="#"><img src="/assets/images/icon/mastercard.png" alt="" /></Link>
                                     </li>
                                     <li>
-                                        <Link href="#"><img src="../assets/images/icon/paypal.png" alt="" /></Link>
+                                        <Link href="#"><img src="/assets/images/icon/paypal.png" alt="" /></Link>
                                     </li>
                                     <li>
-                                        <Link href="#"><img src="../assets/images/icon/american-express.png" alt="" /></Link>
+                                        <Link href="#"><img src="/assets/images/icon/american-express.png" alt="" /></Link>
                                     </li>
                                     <li>
-                                        <Link href="#"><img src="../assets/images/icon/discover.png" alt="" /></Link>
+                                        <Link href="#"><img src="/assets/images/icon/discover.png" alt="" /></Link>
                                     </li>
                                 </ul>
                             </div>

@@ -89,7 +89,7 @@ const Products = () => {
                                         <div className="collection-collapse-block-content">
                                             <div className="wrapper mt-3">
                                                 <div className="range-slider">
-                                                    <input type="text" className="js-range-slider" defaultValue="" />
+                                                    <input type="text" className="js-range-slider" defaultdefaultValue="" />
                                                 </div>
                                             </div>
                                         </div>
@@ -102,7 +102,7 @@ const Products = () => {
                                         <div>
                                             <div className="media">
                                                 <Link href="/products/1"><img className="img-fluid"
-                                                    src="../assets/images/fashion/pro/1.jpg" alt="" /></Link>
+                                                    src="/assets/images/fashion/pro/1.jpg" alt="" /></Link>
                                                 <div className="media-body align-self-center">
                                                     <div className="rating"><i className="fa fa-star"></i> <i className="fa fa-star"></i>
                                                         <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i
@@ -115,7 +115,7 @@ const Products = () => {
                                             </div>
                                             <div className="media">
                                                 <Link href="/products/1"><img className="img-fluid"
-                                                    src="../assets/images/fashion/pro/011.jpg" alt="" /></Link>
+                                                    src="/assets/images/fashion/pro/011.jpg" alt="" /></Link>
                                                 <div className="media-body align-self-center">
                                                     <div className="rating"><i className="fa fa-star"></i> <i className="fa fa-star"></i>
                                                         <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i
@@ -128,7 +128,7 @@ const Products = () => {
                                             </div>
                                             <div className="media">
                                                 <Link href="/products/1"><img className="img-fluid"
-                                                    src="../assets/images/fashion/pro/16.jpg" alt="" /></Link>
+                                                    src="/assets/images/fashion/pro/16.jpg" alt="" /></Link>
                                                 <div className="media-body align-self-center">
                                                     <div className="rating"><i className="fa fa-star"></i> <i className="fa fa-star"></i>
                                                         <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i
@@ -143,7 +143,7 @@ const Products = () => {
                                         <div>
                                             <div className="media">
                                                 <Link href="/products/1"><img className="img-fluid"
-                                                    src="../assets/images/fashion/pro/001.jpg" alt="" /></Link>
+                                                    src="/assets/images/fashion/pro/001.jpg" alt="" /></Link>
                                                 <div className="media-body align-self-center">
                                                     <div className="rating"><i className="fa fa-star"></i> <i className="fa fa-star"></i>
                                                         <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i
@@ -156,7 +156,7 @@ const Products = () => {
                                             </div>
                                             <div className="media">
                                                 <Link href="/products/1"><img className="img-fluid"
-                                                    src="../assets/images/fashion/pro/4.jpg" alt="" /></Link>
+                                                    src="/assets/images/fashion/pro/4.jpg" alt="" /></Link>
                                                 <div className="media-body align-self-center">
                                                     <div className="rating"><i className="fa fa-star"></i> <i className="fa fa-star"></i>
                                                         <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i
@@ -169,7 +169,7 @@ const Products = () => {
                                             </div>
                                             <div className="media">
                                                 <Link href="/products/1"><img className="img-fluid"
-                                                    src="../assets/images/fashion/pro/19.jpg" alt="" /></Link>
+                                                    src="/assets/images/fashion/pro/19.jpg" alt="" /></Link>
                                                 <div className="media-body align-self-center">
                                                     <div className="rating"><i className="fa fa-star"></i> <i className="fa fa-star"></i>
                                                         <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i
@@ -185,7 +185,7 @@ const Products = () => {
                                 </div>
 
                                 <div className="collection-sidebar-banner">
-                                    <Link href="/products/1"><img src="../assets/images/side-banner.png" className="img-fluid"
+                                    <Link href="/products/1"><img src="/assets/images/side-banner.png" className="img-fluid"
                                         alt="" /></Link>
                                 </div>
                             </div>
@@ -195,7 +195,7 @@ const Products = () => {
                                     <div className="row">
                                         <div className="col-sm-12">
                                             <div className="top-banner-wrapper">
-                                                <Link href="/products/1"><img src="../assets/images/mega-menu/2.jpg"
+                                                <Link href="/products/1"><img src="/assets/images/mega-menu/2.jpg"
                                                     className="img-fluid" alt="" /></Link>
                                                 <div className="top-banner-content small-section">
                                                     <h4>BIGGEST DEALS ON TOP BRANDS</h4>
@@ -232,31 +232,31 @@ const Products = () => {
                                                                 </div>
                                                                 <div className="collection-grid-view">
                                                                     <ul>
-                                                                        <li><img src="../assets/images/icon/2.png" alt=""
+                                                                        <li><img src="/assets/images/icon/2.png" alt=""
                                                                             className="product-2-layout-view" /></li>
-                                                                        <li><img src="../assets/images/icon/3.png" alt=""
+                                                                        <li><img src="/assets/images/icon/3.png" alt=""
                                                                             className="product-3-layout-view" /></li>
-                                                                        <li><img src="../assets/images/icon/4.png" alt=""
+                                                                        <li><img src="/assets/images/icon/4.png" alt=""
                                                                             className="product-4-layout-view" /></li>
-                                                                        <li><img src="../assets/images/icon/6.png" alt=""
+                                                                        <li><img src="/assets/images/icon/6.png" alt=""
                                                                             className="product-6-layout-view" /></li>
                                                                     </ul>
                                                                 </div>
                                                                 <div className="product-page-per-view">
                                                                     <select>
-                                                                        <option defaultValue="High to low">24 Products Par Page
+                                                                        <option defaultdefaultValue="High to low">24 Products Par Page
                                                                         </option>
-                                                                        <option defaultValue="Low to High">50 Products Par Page
+                                                                        <option defaultdefaultValue="Low to High">50 Products Par Page
                                                                         </option>
-                                                                        <option defaultValue="Low to High">100 Products Par Page
+                                                                        <option defaultdefaultValue="Low to High">100 Products Par Page
                                                                         </option>
                                                                     </select>
                                                                 </div>
                                                                 <div className="product-page-filter">
                                                                     <select>
-                                                                        <option defaultValue="High to low">Sorting items</option>
-                                                                        <option defaultValue="Low to High">50 Products</option>
-                                                                        <option defaultValue="Low to High">100 Products</option>
+                                                                        <option defaultdefaultValue="High to low">Sorting items</option>
+                                                                        <option defaultdefaultValue="Low to High">50 Products</option>
+                                                                        <option defaultdefaultValue="Low to High">100 Products</option>
                                                                     </select>
                                                                 </div>
                                                             </div>
@@ -269,12 +269,12 @@ const Products = () => {
                                                             <div className="product-box">
                                                                 <div className="img-wrapper">
                                                                     <div className="front">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/35.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/35.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
                                                                     <div className="back">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/36.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/36.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
@@ -321,12 +321,12 @@ const Products = () => {
                                                             <div className="product-box">
                                                                 <div className="img-wrapper">
                                                                     <div className="front">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/27.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/27.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
                                                                     <div className="back">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/28.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/28.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
@@ -370,12 +370,12 @@ const Products = () => {
                                                             <div className="product-box">
                                                                 <div className="img-wrapper">
                                                                     <div className="front">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/1.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/1.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
                                                                     <div className="back">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/2.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/2.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
@@ -419,12 +419,12 @@ const Products = () => {
                                                             <div className="product-box">
                                                                 <div className="img-wrapper">
                                                                     <div className="front">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/33.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/33.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
                                                                     <div className="back">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/34.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/34.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
@@ -468,12 +468,12 @@ const Products = () => {
                                                             <div className="product-box">
                                                                 <div className="img-wrapper">
                                                                     <div className="front">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/27.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/27.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
                                                                     <div className="back">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/28.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/28.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
@@ -517,12 +517,12 @@ const Products = () => {
                                                             <div className="product-box">
                                                                 <div className="img-wrapper">
                                                                     <div className="front">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/35.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/35.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
                                                                     <div className="back">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/36.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/36.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
@@ -566,12 +566,12 @@ const Products = () => {
                                                             <div className="product-box">
                                                                 <div className="img-wrapper">
                                                                     <div className="front">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/27.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/27.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
                                                                     <div className="back">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/28.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/28.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
@@ -615,12 +615,12 @@ const Products = () => {
                                                             <div className="product-box">
                                                                 <div className="img-wrapper">
                                                                     <div className="front">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/1.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/1.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
                                                                     <div className="back">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/2.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/2.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
@@ -664,12 +664,12 @@ const Products = () => {
                                                             <div className="product-box">
                                                                 <div className="img-wrapper">
                                                                     <div className="front">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/27.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/27.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
                                                                     <div className="back">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/28.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/28.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
@@ -714,12 +714,12 @@ const Products = () => {
                                                             <div className="product-box">
                                                                 <div className="img-wrapper">
                                                                     <div className="front">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/1.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/1.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
                                                                     <div className="back">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/2.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/2.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
@@ -763,12 +763,12 @@ const Products = () => {
                                                             <div className="product-box">
                                                                 <div className="img-wrapper">
                                                                     <div className="front">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/33.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/33.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
                                                                     <div className="back">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/34.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/34.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
@@ -812,12 +812,12 @@ const Products = () => {
                                                             <div className="product-box">
                                                                 <div className="img-wrapper">
                                                                     <div className="front">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/1.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/1.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>
                                                                     <div className="back">
-                                                                        <Link href="/products/1"><img src="../assets/images/pro3/2.jpg"
+                                                                        <Link href="/products/1"><img src="/assets/images/pro3/2.jpg"
                                                                             className="img-fluid bg-img"
                                                                             alt="" /></Link>
                                                                     </div>

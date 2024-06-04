@@ -24,7 +24,7 @@ const Wishlist = () => {
                 <tbody>
                   <tr>
                     <td>
-                      <Link href="#"><img src="../assets/images/pro3/1.jpg" alt="" /></Link>
+                      <Link href="#"><img src="/assets/images/pro3/1.jpg" alt="" /></Link>
                     </td>
                     <td><Link href="#">cotton shirt</Link>
                       <div className="mobile-cart-content row">
@@ -53,7 +53,7 @@ const Wishlist = () => {
                 <tbody>
                   <tr>
                     <td>
-                      <Link href="#"><img src="../assets/images/pro3/27.jpg" alt="" /></Link>
+                      <Link href="#"><img src="/assets/images/pro3/27.jpg" alt="" /></Link>
                     </td>
                     <td><Link href="#">cotton shirt</Link>
                       <div className="mobile-cart-content row">
@@ -82,7 +82,7 @@ const Wishlist = () => {
                 <tbody>
                   <tr>
                     <td>
-                      <Link href="#"><img src="../assets/images/pro3/35.jpg" alt="" /></Link>
+                      <Link href="#"><img src="/assets/images/pro3/35.jpg" alt="" /></Link>
                     </td>
                     <td><Link href="#">cotton shirt</Link>
                       <div className="mobile-cart-content row">

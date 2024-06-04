@@ -1,14 +1,34 @@
+"use client"
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const Sidebar = () => {
+    useEffect(() => {
+        const handleSidebarClick = (event) => {
+            const liElements = document.querySelectorAll('.sidebar-menu li');
+            liElements.forEach((li) => li.classList.remove('active'));
+            event.currentTarget.classList.add('active');
+        };
+
+        const liElements = document.querySelectorAll('.sidebar-menu > li');
+        liElements.forEach((li) => {
+            li.addEventListener('click', handleSidebarClick);
+        });
+
+        return () => {
+            liElements.forEach((li) => {
+                li.removeEventListener('click', handleSidebarClick);
+            });
+        };
+    }, []);
+
     return (
         <div className="page-sidebar">
             <div className="main-header-left d-none d-lg-block">
                 <div className="logo-wrapper">
                     <Link href="/dashboard">
                         <img className="d-none d-lg-block blur-up lazyloaded"
-                            src="../assets/images/dashboard/multikart-logo.png" alt="" />
+                            src="/assets/images/dashboard/multikart-logo.png" alt="" />
                     </Link>
                 </div>
             </div>
@@ -19,7 +39,7 @@ const Sidebar = () => {
                 </Link>
 
                 <div className="sidebar-user">
-                    <img className="img-60" src="../assets/images/dashboard/user3.jpg" alt="#" />
+                    <img className="img-60" src="/assets/images/dashboard/user3.jpg" alt="#" />
                     <div>
                         <h6 className="f-14">JOHN</h6>
                         <p>general manager.</p>
@@ -29,7 +49,7 @@ const Sidebar = () => {
                 <ul className="sidebar-menu">
                     <li>
                         <Link className="sidebar-header" href="/dashboard">
-                            <i class="fa fa-home"></i>
+                            <i className="fa fa-home"></i>
                             <span>Dashboard</span>
                         </Link>
                     </li>
@@ -43,80 +63,21 @@ const Sidebar = () => {
 
                         <ul className="sidebar-submenu">
                             <li>
-                                <Link href="#">
+                                <Link href="/dashboard/products">
                                     <i className="fa fa-circle"></i>
-                                    <span>Physical</span>
-                                    <i className="fa fa-angle-right pull-right"></i>
+                                    <span>Product List</span>
                                 </Link>
-
-                                <ul className="sidebar-submenu">
-                                    <li>
-                                        <Link href="#">
-                                            <i className="fa fa-circle"></i>Category
-                                        </Link>
-                                    </li>
-
-                                    <li>
-                                        <Link href="#">
-                                            <i className="fa fa-circle"></i>Sub Category</Link>
-                                    </li>
-
-                                    <li>
-                                        <Link href="#">
-                                            <i className="fa fa-circle"></i>Product List</Link>
-                                    </li>
-
-                                    <li>
-                                        <Link href="#">
-                                            <i className="fa fa-circle"></i>Product Detail</Link>
-                                    </li>
-
-                                    <li>
-                                        <Link href="#">
-                                            <i className="fa fa-circle"></i>Add Product
-                                        </Link>
-                                    </li>
-                                </ul>
                             </li>
-
                             <li>
-                                <Link href="#">
+                                <Link href="/dashboard/category">
                                     <i className="fa fa-circle"></i>
-                                    <span>Digital</span>
-                                    <i className="fa fa-angle-right pull-right"></i>
+                                    <span>Category</span>
                                 </Link>
-
-                                <ul className="sidebar-submenu">
-                                    <li>
-                                        <Link href="#">
-                                            <i className="fa fa-circle"></i>Category
-                                        </Link>
-                                    </li>
-
-                                    <li>
-                                        <Link href="#">
-                                            <i className="fa fa-circle"></i>Sub Category
-                                        </Link>
-                                    </li>
-
-                                    <li>
-                                        <Link href="#">
-                                            <i className="fa fa-circle"></i>Product List
-                                        </Link>
-                                    </li>
-
-                                    <li>
-                                        <Link href="#">
-                                            <i className="fa fa-circle"></i>Add Product
-                                        </Link>
-                                    </li>
-                                </ul>
                             </li>
-
                             <li>
-                                <Link href="#">
+                                <Link href="/dashboard/products/add">
                                     <i className="fa fa-circle"></i>
-                                    <span>product Review</span>
+                                    <span>Add Product</span>
                                 </Link>
                             </li>
                         </ul>
@@ -131,42 +92,19 @@ const Sidebar = () => {
 
                         <ul className="sidebar-submenu">
                             <li>
-                                <Link href="#">
+                                <Link href="/dashboard/orders">
                                     <i className="fa fa-circle"></i>
                                     <span>Order List</span>
                                 </Link>
                             </li>
-
+                            
                             <li>
-                                <Link href="#">
-                                    <i className="fa fa-circle"></i>
-                                    <span>Order Tracking</span>
-                                </Link>
-                            </li>
-
-                            <li>
-                                <Link href="#">
-                                    <i className="fa fa-circle"></i>
-                                    <span>Order Details</span>
-                                </Link>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <Link className="sidebar-header" href="#">
-                            <i className='fa fa-usd'></i>
-                            <span>Sales</span>
-                            <i className="fa fa-angle-right pull-right"></i>
-                        </Link>
-                        <ul className="sidebar-submenu">
-                            <li>
-                                <Link href="#">
-                                    <i className="fa fa-circle"></i>Orders
+                                <Link href="/dashboard/orders/sales">
+                                    <i className="fa fa-circle"></i>Sales
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
+                                <Link href="/dashboard/orders/transaction">
                                     <i className="fa fa-circle"></i>Transactions
                                 </Link>
                             </li>
@@ -181,12 +119,12 @@ const Sidebar = () => {
                         </Link>
                         <ul className="sidebar-submenu">
                             <li>
-                                <Link href="#">
+                                <Link href="/dashboard/coupons">
                                     <i className="fa fa-circle"></i>List Coupons
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
+                                <Link href="/dashboard/coupons/add">
                                     <i className="fa fa-circle"></i>Create Coupons
                                 </Link>
                             </li>
@@ -201,23 +139,16 @@ const Sidebar = () => {
                         </Link>
                         <ul className="sidebar-submenu">
                             <li>
-                                <Link href="#">
+                                <Link href="/dashboard/pages">
                                     <i className="fa fa-circle"></i>List Page
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
+                                <Link href="/dashboard/pages/add">
                                     <i className="fa fa-circle"></i>Create Page
                                 </Link>
                             </li>
                         </ul>
-                    </li>
-
-                    <li>
-                        <Link className="sidebar-header" href="#">
-                            <i className='fa fa-camera-retro'></i>
-                            <span>Media</span>
-                        </Link>
                     </li>
 
                     <li>
@@ -228,12 +159,12 @@ const Sidebar = () => {
                         </Link>
                         <ul className="sidebar-submenu">
                             <li>
-                                <Link href="#">
+                                <Link href="/dashboard/menu">
                                     <i className="fa fa-circle"></i>Menu Lists
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
+                                <Link href="/dashboard/menu/add">
                                     <i className="fa fa-circle"></i>Create Menu
                                 </Link>
                             </li>
@@ -248,12 +179,12 @@ const Sidebar = () => {
                         </Link>
                         <ul className="sidebar-submenu">
                             <li>
-                                <Link href="#">
+                                <Link href="/dashboard/user">
                                     <i className="fa fa-circle"></i>User List
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
+                                <Link href="/dashboard/user/add">
                                     <i className="fa fa-circle"></i>Create User
                                 </Link>
                             </li>
@@ -268,52 +199,16 @@ const Sidebar = () => {
                         </Link>
                         <ul className="sidebar-submenu">
                             <li>
-                                <Link href="#">
+                                <Link href="/dashboard/vendors">
                                     <i className="fa fa-circle"></i>Vendor List
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
+                                <Link href="/dashboard/vendors/add">
                                     <i className="fa fa-circle"></i>Create Vendor
                                 </Link>
                             </li>
                         </ul>
-                    </li>
-
-                    <li>
-                        <Link className="sidebar-header" href="#">
-                            <i className='fa fa-compass'></i>
-                            <span>Localization</span>
-                            <i className="fa fa-angle-right pull-right"></i>
-                        </Link>
-                        <ul className="sidebar-submenu">
-                            <li>
-                                <Link href="#"><i className="fa fa-circle"></i>Translations
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="#"><i className="fa fa-circle"></i>Currency Rates
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="#"><i className="fa fa-circle"></i>Taxes
-                                </Link>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <Link className="sidebar-header" href="#">
-                            <i className="fa fa-volume-control-phone"></i>
-                            <span>Support Ticket</span>
-                        </Link>
-                    </li>
-
-                    <li>
-                        <Link className="sidebar-header" href="#">
-                            <i className="fa fa-bar-chart"></i>
-                            <span>Reports</span>
-                        </Link>
                     </li>
 
                     <li>
@@ -324,22 +219,18 @@ const Sidebar = () => {
                         </Link>
                         <ul className="sidebar-submenu">
                             <li>
-                                <Link href="#"><i className="fa fa-circle"></i>Profile</Link>
+                                <Link href="/dashboard/profile"><i className="fa fa-circle"></i>Profile</Link>
+                            </li>
+                            <li>
+                                <Link href="/dashboard/profile/reset-password"><i className='fa fa-circle'></i>Change Password</Link>
                             </li>
                         </ul>
                     </li>
 
                     <li>
-                        <Link className="sidebar-header" href="#">
+                        <Link className="sidebar-header" href="/dashboard/invoice">
                             <i className="fa fa-file-pdf-o"></i>
                             <span>Invoice</span></Link>
-                    </li>
-
-                    <li>
-                        <Link className="sidebar-header" href="/forgot-password">
-                            <i className='fa fa-key'></i>
-                            <span>Forgot Password</span>
-                        </Link>
                     </li>
 
                     <li>

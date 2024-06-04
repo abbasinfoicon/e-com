@@ -53,7 +53,7 @@ const Header = () => {
                         <div className="main-menu">
                             <div className="menu-left">
                                 <div className="brand-logo">
-                                    <Link href="/"><img src="../assets/images/icon/logo.png"
+                                    <Link href="/"><img src="/assets/images/icon/logo.png"
                                         className="img-fluid" alt="" /></Link>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@ const Header = () => {
                                     <div className="icon-nav">
                                         <ul>
                                             <li className="onhover-div mobile-search">
-                                                <div><img src="../assets/images/icon/search.png"
+                                                <div><img src="/assets/images/icon/search.png"
                                                     className="img-fluid" alt="" /> <i className="ti-search"
                                                        ></i></div>
                                                 <div id="search-overlay" className="search-overlay">
@@ -107,7 +107,7 @@ const Header = () => {
                                                 </div>
                                             </li>
                                             <li className="onhover-div mobile-setting">
-                                                <div><img src="../assets/images/icon/setting.png"
+                                                <div><img src="/assets/images/icon/setting.png"
                                                     className="img-fluid" alt="" /> <i
                                                         className="ti-settings"></i></div>
                                                 <div className="show-div setting">
@@ -126,7 +126,7 @@ const Header = () => {
                                                 </div>
                                             </li>
                                             <li className="onhover-div mobile-cart">
-                                                <div><img src="../assets/images/icon/cart.png"
+                                                <div><img src="/assets/images/icon/cart.png"
                                                     className="img-fluid" alt="" /> <i
                                                         className="ti-shopping-cart"></i></div>
                                                 <span className="cart_qty_cls">2</span>
@@ -134,7 +134,7 @@ const Header = () => {
                                                     <li>
                                                         <div className="media">
                                                             <Link href="#"><img alt="" className="me-3"
-                                                                src="../assets/images/fashion/product/1.jpg" /></Link>
+                                                                src="/assets/images/fashion/product/1.jpg" /></Link>
                                                             <div className="media-body">
                                                                 <Link href="#">
                                                                     <h4>item name</h4>
@@ -148,7 +148,7 @@ const Header = () => {
                                                     <li>
                                                         <div className="media">
                                                             <Link href="#"><img alt="" className="me-3"
-                                                                src="../assets/images/fashion/product/2.jpg" /></Link>
+                                                                src="/assets/images/fashion/product/2.jpg" /></Link>
                                                             <div className="media-body">
                                                                 <Link href="#">
                                                                     <h4>item name</h4>

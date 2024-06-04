@@ -33,7 +33,7 @@ const Cart = () => {
                 <tbody>
                   <tr>
                     <td>
-                      <Link href="#"><img src="../assets/images/pro3/2.jpg" alt="" /></Link>
+                      <Link href="#"><img src="/assets/images/pro3/2.jpg" alt="" /></Link>
                     </td>
                     <td><Link href="#">cotton shirt</Link>
                       <div className="mobile-cart-content row">
@@ -41,7 +41,7 @@ const Cart = () => {
                           <div className="qty-box">
                             <div className="input-group">
                               <input type="text" name="quantity" className="form-control input-number"
-                                defaultValue="1" />
+                                defaultdefaultValue="1" />
                             </div>
                           </div>
                         </div>
@@ -61,7 +61,7 @@ const Cart = () => {
                       <div className="qty-box">
                         <div className="input-group">
                           <input type="number" name="quantity" className="form-control input-number"
-                            defaultValue="1" />
+                            defaultdefaultValue="1" />
                         </div>
                       </div>
                     </td>
@@ -74,7 +74,7 @@ const Cart = () => {
                 <tbody>
                   <tr>
                     <td>
-                      <Link href="#"><img src="../assets/images/pro3/35.jpg" alt="" /></Link>
+                      <Link href="#"><img src="/assets/images/pro3/35.jpg" alt="" /></Link>
                     </td>
                     <td><Link href="#">cotton shirt</Link>
                       <div className="mobile-cart-content row">
@@ -82,7 +82,7 @@ const Cart = () => {
                           <div className="qty-box">
                             <div className="input-group">
                               <input type="number" name="quantity"
-                                className="form-control input-number" defaultValue="1" />
+                                className="form-control input-number" defaultdefaultValue="1" />
                             </div>
                           </div>
                         </div>
@@ -102,7 +102,7 @@ const Cart = () => {
                       <div className="qty-box">
                         <div className="input-group">
                           <input type="number" name="quantity" className="form-control input-number"
-                            defaultValue="1" />
+                            defaultdefaultValue="1" />
                         </div>
                       </div>
                     </td>
@@ -115,7 +115,7 @@ const Cart = () => {
                 <tbody>
                   <tr>
                     <td>
-                      <Link href="#"><img src="../assets/images/pro3/33.jpg" alt="" /></Link>
+                      <Link href="#"><img src="/assets/images/pro3/33.jpg" alt="" /></Link>
                     </td>
                     <td><Link href="#">cotton shirt</Link>
                       <div className="mobile-cart-content row">
@@ -123,7 +123,7 @@ const Cart = () => {
                           <div className="qty-box">
                             <div className="input-group">
                               <input type="number" name="quantity"
-                                className="form-control input-number" defaultValue="1" />
+                                className="form-control input-number" defaultdefaultValue="1" />
                             </div>
                           </div>
                         </div>
@@ -143,7 +143,7 @@ const Cart = () => {
                       <div className="qty-box">
                         <div className="input-group">
                           <input type="number" name="quantity" className="form-control input-number"
-                            defaultValue="1" />
+                            defaultdefaultValue="1" />
                         </div>
                       </div>
                     </td>

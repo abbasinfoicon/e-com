@@ -20,19 +20,19 @@ const Checkout = () => {
                     <div className="row check-out">
                       <div className="form-group col-md-6 col-sm-6 col-xs-12">
                         <div className="field-label">First Name</div>
-                        <input type="text" name="field-name" defaultValue="" placeholder="" />
+                        <input type="text" name="field-name" defaultdefaultValue="" placeholder="" />
                       </div>
                       <div className="form-group col-md-6 col-sm-6 col-xs-12">
                         <div className="field-label">Last Name</div>
-                        <input type="text" name="field-name" defaultValue="" placeholder="" />
+                        <input type="text" name="field-name" defaultdefaultValue="" placeholder="" />
                       </div>
                       <div className="form-group col-md-6 col-sm-6 col-xs-12">
                         <div className="field-label">Phone</div>
-                        <input type="text" name="field-name" defaultValue="" placeholder="" />
+                        <input type="text" name="field-name" defaultdefaultValue="" placeholder="" />
                       </div>
                       <div className="form-group col-md-6 col-sm-6 col-xs-12">
                         <div className="field-label">Email Address</div>
-                        <input type="text" name="field-name" defaultValue="" placeholder="" />
+                        <input type="text" name="field-name" defaultdefaultValue="" placeholder="" />
                       </div>
                       <div className="form-group col-md-12 col-sm-12 col-xs-12">
                         <div className="field-label">Country</div>
@@ -45,19 +45,19 @@ const Checkout = () => {
                       </div>
                       <div className="form-group col-md-12 col-sm-12 col-xs-12">
                         <div className="field-label">Address</div>
-                        <input type="text" name="field-name" defaultValue="" placeholder="Street address" />
+                        <input type="text" name="field-name" defaultdefaultValue="" placeholder="Street address" />
                       </div>
                       <div className="form-group col-md-12 col-sm-12 col-xs-12">
                         <div className="field-label">Town/City</div>
-                        <input type="text" name="field-name" defaultValue="" placeholder="" />
+                        <input type="text" name="field-name" defaultdefaultValue="" placeholder="" />
                       </div>
                       <div className="form-group col-md-12 col-sm-6 col-xs-12">
                         <div className="field-label">State / County</div>
-                        <input type="text" name="field-name" defaultValue="" placeholder="" />
+                        <input type="text" name="field-name" defaultdefaultValue="" placeholder="" />
                       </div>
                       <div className="form-group col-md-12 col-sm-6 col-xs-12">
                         <div className="field-label">Postal Code</div>
-                        <input type="text" name="field-name" defaultValue="" placeholder="" />
+                        <input type="text" name="field-name" defaultdefaultValue="" placeholder="" />
                       </div>
                       <div className="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <input type="checkbox" name="shipping-option" id="account-option" /> &ensp;
@@ -121,7 +121,7 @@ const Checkout = () => {
                                 <div className="radio-option paypal">
                                   <input type="radio" name="payment-group" id="payment-3" />
                                   <label htmlFor="payment-3">PayPal<span className="image"><img
-                                    src="../assets/images/paypal.png"
+                                    src="/assets/images/paypal.png"
                                     alt="" /></span></label>
                                 </div>
                               </li>

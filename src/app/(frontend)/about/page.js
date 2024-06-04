@@ -56,7 +56,7 @@ const About = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div className="banner-section"><img src="../assets/images/about/about-us.jpg"
+              <div className="banner-section"><img src="/assets/images/about/about-us.jpg"
                 className="img-fluid" alt="" /></div>
             </div>
             <div className="col-sm-12">
@@ -89,7 +89,7 @@ const About = () => {
                   <div>
                     <div className="media">
                       <div className="text-center">
-                        <img src="../assets/images/avtar.jpg" alt="#" />
+                        <img src="/assets/images/avtar.jpg" alt="#" />
                         <h5>Mark Jecno</h5>
                         <h6>Designer</h6>
                       </div>
@@ -103,7 +103,7 @@ const About = () => {
                   <div>
                     <div className="media">
                       <div className="text-center">
-                        <img src="../assets/images/2.jpg" alt="#" />
+                        <img src="/assets/images/2.jpg" alt="#" />
                         <h5>Mark Jecno</h5>
                         <h6>Designer</h6>
                       </div>
@@ -117,7 +117,7 @@ const About = () => {
                   <div>
                     <div className="media">
                       <div className="text-center">
-                        <img src="../assets/images/avtar.jpg" alt="#" />
+                        <img src="/assets/images/avtar.jpg" alt="#" />
                         <h5>Mark Jecno</h5>
                         <h6>Designer</h6>
                       </div>
@@ -131,7 +131,7 @@ const About = () => {
                   <div>
                     <div className="media">
                       <div className="text-center">
-                        <img src="../assets/images/avtar.jpg" alt="#" />
+                        <img src="/assets/images/avtar.jpg" alt="#" />
                         <h5>Mark Jecno</h5>
                         <h6>Designer</h6>
                       </div>
@@ -145,7 +145,7 @@ const About = () => {
                   <div>
                     <div className="media">
                       <div className="text-center">
-                        <img src="../assets/images/avtar.jpg" alt="#" />
+                        <img src="/assets/images/avtar.jpg" alt="#" />
                         <h5>Mark Jecno</h5>
                         <h6>Designer</h6>
                       </div>
@@ -159,7 +159,7 @@ const About = () => {
                   <div>
                     <div className="media">
                       <div className="text-center">
-                        <img src="../assets/images/avtar.jpg" alt="#" />
+                        <img src="/assets/images/avtar.jpg" alt="#" />
                         <h5>Mark Jecno</h5>
                         <h6>Designer</h6>
                       </div>
@@ -185,35 +185,35 @@ const About = () => {
               <Slider {...teams} className="team-4">
                 <div>
                   <div>
-                    <img src="../assets/images/team/1.jpg" className="img-fluid bg-img" alt="" />
+                    <img src="/assets/images/team/1.jpg" className="img-fluid bg-img" alt="" />
                   </div>
                   <h4>Hileri Keol</h4>
                   <h6>CEo & Founder At Company</h6>
                 </div>
                 <div>
                   <div>
-                    <img src="../assets/images/team/2.jpg" className="img-fluid bg-img" alt="" />
+                    <img src="/assets/images/team/2.jpg" className="img-fluid bg-img" alt="" />
                   </div>
                   <h4>Hileri Keol</h4>
                   <h6>CEo & Founder At Company</h6>
                 </div>
                 <div>
                   <div>
-                    <img src="../assets/images/team/3.jpg" className="img-fluid bg-img" alt="" />
+                    <img src="/assets/images/team/3.jpg" className="img-fluid bg-img" alt="" />
                   </div>
                   <h4>Hileri Keol</h4>
                   <h6>CEo & Founder At Company</h6>
                 </div>
                 <div>
                   <div>
-                    <img src="../assets/images/team/4.jpg" className="img-fluid bg-img" alt="" />
+                    <img src="/assets/images/team/4.jpg" className="img-fluid bg-img" alt="" />
                   </div>
                   <h4>Hileri Keol</h4>
                   <h6>CEo & Founder At Company</h6>
                 </div>
                 <div>
                   <div>
-                    <img src="../assets/images/team/1.jpg" className="img-fluid bg-img" alt="" />
+                    <img src="/assets/images/team/1.jpg" className="img-fluid bg-img" alt="" />
                   </div>
                   <h4>Hileri Keol</h4>
                   <h6>CEo & Founder At Company</h6>

@@ -16,12 +16,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="../assets/images/favicon/1.png" type="image/x-icon" />
-        <link rel="stylesheet" type="text/css" href="../assets/css/vendors/font-awesome.css" />
-        <link rel="stylesheet" type="text/css" href="../assets/css/vendors/animate.css" />
-        <link rel="stylesheet" type="text/css" href="../assets/css/vendors/themify-icons.css" />
-        <link rel="stylesheet" type="text/css" href="../assets/css/vendors/bootstrap.css" />
-        <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+        <link rel="icon" href="/assets/images/favicon/1.png" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/vendors/font-awesome.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/vendors/animate.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/vendors/themify-icons.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/vendors/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/admin.css" />
       </head>
       <body className={inter.className}>
         {children}

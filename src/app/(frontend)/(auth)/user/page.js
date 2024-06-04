@@ -17,7 +17,7 @@ const User = () => {
                 <div className="dashboard-sidebar">
                   <div className="profile-top">
                     <div className="profile-image">
-                      <img src="../assets/images/avtar.jpg" alt="" className="img-fluid" />
+                      <img src="/assets/images/avtar.jpg" alt="" className="img-fluid" />
                     </div>
                     <div className="profile-detail">
                       <h5>Mark Jecno</h5>
@@ -57,7 +57,7 @@ const User = () => {
                       <div className="row">
                         <div className="col-md-4">
                           <div className="counter-box">
-                            <img src="../assets/images/icon/dashboard/sale.png" className="img-fluid" />
+                            <img src="/assets/images/icon/dashboard/sale.png" className="img-fluid" />
                             <div>
                               <h3>25</h3>
                               <h5>Total Order</h5>
@@ -66,7 +66,7 @@ const User = () => {
                         </div>
                         <div className="col-md-4">
                           <div className="counter-box">
-                            <img src="../assets/images/icon/dashboard/homework.png" className="img-fluid" />
+                            <img src="/assets/images/icon/dashboard/homework.png" className="img-fluid" />
                             <div>
                               <h3>5</h3>
                               <h5>Pending Orders</h5>
@@ -75,7 +75,7 @@ const User = () => {
                         </div>
                         <div className="col-md-4">
                           <div className="counter-box">
-                            <img src="../assets/images/icon/dashboard/order.png" className="img-fluid" />
+                            <img src="/assets/images/icon/dashboard/order.png" className="img-fluid" />
                             <div>
                               <h3>50</h3>
                               <h5>Wishlist</h5>
@@ -158,7 +158,7 @@ const User = () => {
                                       </div>
                                     </div>
                                     <div className="bottom">
-                                      <Link href="javascript:void(0)"
+                                      <Link href="#"
                                         data-bs-target="#edit-address"
                                         data-bs-toggle="modal" className="bottom_btn">edit</Link>
                                       <Link href="#" className="bottom_btn">remove</Link>
@@ -181,7 +181,7 @@ const User = () => {
                                       </div>
                                     </div>
                                     <div className="bottom">
-                                      <Link href="javascript:void(0)"
+                                      <Link href="#"
                                         data-bs-target="#edit-address"
                                         data-bs-toggle="modal" className="bottom_btn">edit</Link>
                                       <Link href="#" className="bottom_btn">remove</Link>
@@ -218,8 +218,8 @@ const User = () => {
                                 <tbody>
                                   <tr>
                                     <td>
-                                      <Link href="javascript:void(0)">
-                                        <img src="../assets/images/pro3/1.jpg"
+                                      <Link href="#">
+                                        <img src="/assets/images/pro3/1.jpg"
                                           className="blur-up lazyloaded" alt="" />
                                       </Link>
                                     </td>
@@ -237,7 +237,7 @@ const User = () => {
                                       <span className="theme-color fs-6">$49.54</span>
                                     </td>
                                     <td>
-                                      <Link href="javascript:void(0)">
+                                      <Link href="#">
                                         <i className="fa fa-eye text-theme"></i>
                                       </Link>
                                     </td>
@@ -245,8 +245,8 @@ const User = () => {
 
                                   <tr>
                                     <td>
-                                      <Link href="javascript:void(0)">
-                                        <img src="../assets/images/pro3/2.jpg"
+                                      <Link href="#">
+                                        <img src="/assets/images/pro3/2.jpg"
                                           className="blur-up lazyloaded" alt="" />
                                       </Link>
                                     </td>
@@ -264,7 +264,7 @@ const User = () => {
                                       <span className="theme-color fs-6">$49.54</span>
                                     </td>
                                     <td>
-                                      <Link href="javascript:void(0)">
+                                      <Link href="#">
                                         <i className="fa fa-eye text-theme"></i>
                                       </Link>
                                     </td>
@@ -272,8 +272,8 @@ const User = () => {
 
                                   <tr>
                                     <td>
-                                      <Link href="javascript:void(0)">
-                                        <img src="../assets/images/pro3/27.jpg"
+                                      <Link href="#">
+                                        <img src="/assets/images/pro3/27.jpg"
                                           className="blur-up lazyloaded" alt="" />
                                       </Link>
                                     </td>
@@ -291,7 +291,7 @@ const User = () => {
                                       <p className="theme-color fs-6">$49.54</p>
                                     </td>
                                     <td>
-                                      <Link href="javascript:void(0)">
+                                      <Link href="#">
                                         <i className="fa fa-eye text-theme"></i>
                                       </Link>
                                     </td>
@@ -299,8 +299,8 @@ const User = () => {
 
                                   <tr>
                                     <td>
-                                      <Link href="javascript:void(0)">
-                                        <img src="../assets/images/pro3/28.jpg"
+                                      <Link href="#">
+                                        <img src="/assets/images/pro3/28.jpg"
                                           className="blur-up lazyloaded" alt="" />
                                       </Link>
                                     </td>
@@ -318,7 +318,7 @@ const User = () => {
                                       <p className="theme-color fs-6">$49.54</p>
                                     </td>
                                     <td>
-                                      <Link href="javascript:void(0)">
+                                      <Link href="#">
                                         <i className="fa fa-eye text-theme"></i>
                                       </Link>
                                     </td>
@@ -326,8 +326,8 @@ const User = () => {
 
                                   <tr>
                                     <td>
-                                      <Link href="javascript:void(0)">
-                                        <img src="../assets/images/pro3/33.jpg"
+                                      <Link href="#">
+                                        <img src="/assets/images/pro3/33.jpg"
                                           className="blur-up lazyloaded" alt="" />
                                       </Link>
                                     </td>
@@ -345,7 +345,7 @@ const User = () => {
                                       <p className="theme-color fs-6">$49.54</p>
                                     </td>
                                     <td>
-                                      <Link href="javascript:void(0)">
+                                      <Link href="#">
                                         <i className="fa fa-eye text-theme"></i>
                                       </Link>
                                     </td>
@@ -353,8 +353,8 @@ const User = () => {
 
                                   <tr>
                                     <td>
-                                      <Link href="javascript:void(0)">
-                                        <img src="../assets/images/pro3/34.jpg"
+                                      <Link href="#">
+                                        <img src="/assets/images/pro3/34.jpg"
                                           className="blur-up lazyloaded" alt="" />
                                       </Link>
                                     </td>
@@ -372,7 +372,7 @@ const User = () => {
                                       <span className="theme-color fs-6">$49.54</span>
                                     </td>
                                     <td>
-                                      <Link href="javascript:void(0)">
+                                      <Link href="#">
                                         <i className="fa fa-eye text-theme"></i>
                                       </Link>
                                     </td>
@@ -407,8 +407,8 @@ const User = () => {
                                 <tbody>
                                   <tr>
                                     <td>
-                                      <Link href="javascript:void(0)">
-                                        <img src="../assets/images/pro3/1.jpg"
+                                      <Link href="#">
+                                        <img src="/assets/images/pro3/1.jpg"
                                           className="blur-up lazyloaded" alt="" />
                                       </Link>
                                     </td>
@@ -422,7 +422,7 @@ const User = () => {
                                       <span className="theme-color fs-6">$49.54</span>
                                     </td>
                                     <td>
-                                      <Link href="javascript:void(0)"
+                                      <Link href="#"
                                         className="btn btn-xs btn-solid">
                                         Move to Cart
                                       </Link>
@@ -431,8 +431,8 @@ const User = () => {
 
                                   <tr>
                                     <td>
-                                      <Link href="javascript:void(0)">
-                                        <img src="../assets/images/pro3/2.jpg"
+                                      <Link href="#">
+                                        <img src="/assets/images/pro3/2.jpg"
                                           className="blur-up lazyloaded" alt="" />
                                       </Link>
                                     </td>
@@ -446,7 +446,7 @@ const User = () => {
                                       <span className="theme-color fs-6">$49.54</span>
                                     </td>
                                     <td>
-                                      <Link href="javascript:void(0)"
+                                      <Link href="#"
                                         className="btn btn-xs btn-solid">
                                         Move to Cart
                                       </Link>
@@ -455,8 +455,8 @@ const User = () => {
 
                                   <tr>
                                     <td>
-                                      <Link href="javascript:void(0)">
-                                        <img src="../assets/images/pro3/27.jpg"
+                                      <Link href="#">
+                                        <img src="/assets/images/pro3/27.jpg"
                                           className="blur-up lazyloaded" alt="" />
                                       </Link>
                                     </td>
@@ -470,7 +470,7 @@ const User = () => {
                                       <span className="theme-color fs-6">$49.54</span>
                                     </td>
                                     <td>
-                                      <Link href="javascript:void(0)"
+                                      <Link href="#"
                                         className="btn btn-xs btn-solid">
                                         Move to Cart
                                       </Link>
@@ -479,8 +479,8 @@ const User = () => {
 
                                   <tr>
                                     <td>
-                                      <Link href="javascript:void(0)">
-                                        <img src="../assets/images/pro3/28.jpg"
+                                      <Link href="#">
+                                        <img src="/assets/images/pro3/28.jpg"
                                           className="blur-up lazyloaded" alt="" />
                                       </Link>
                                     </td>
@@ -494,7 +494,7 @@ const User = () => {
                                       <span className="theme-color fs-6">$49.54</span>
                                     </td>
                                     <td>
-                                      <Link href="javascript:void(0)"
+                                      <Link href="#"
                                         className="btn btn-xs btn-solid">
                                         Move to Cart
                                       </Link>
@@ -503,8 +503,8 @@ const User = () => {
 
                                   <tr>
                                     <td>
-                                      <Link href="javascript:void(0)">
-                                        <img src="../assets/images/pro3/33.jpg"
+                                      <Link href="#">
+                                        <img src="/assets/images/pro3/33.jpg"
                                           className="blur-up lazyloaded" alt="" />
                                       </Link>
                                     </td>
@@ -518,7 +518,7 @@ const User = () => {
                                       <span className="theme-color fs-6">$49.54</span>
                                     </td>
                                     <td>
-                                      <Link href="javascript:void(0)"
+                                      <Link href="#"
                                         className="btn btn-xs btn-solid">
                                         Move to Cart
                                       </Link>
@@ -527,8 +527,8 @@ const User = () => {
 
                                   <tr>
                                     <td>
-                                      <Link href="javascript:void(0)">
-                                        <img src="../assets/images/pro3/34.jpg"
+                                      <Link href="#">
+                                        <img src="/assets/images/pro3/34.jpg"
                                           className="blur-up lazyloaded" alt="" />
                                       </Link>
                                     </td>
@@ -542,7 +542,7 @@ const User = () => {
                                       <span className="theme-color fs-6">$49.54</span>
                                     </td>
                                     <td>
-                                      <Link href="javascript:void(0)"
+                                      <Link href="#"
                                         className="btn btn-xs btn-solid">
                                         Move to Cart
                                       </Link>
@@ -571,9 +571,9 @@ const User = () => {
                                 <div className="select-box active col-xl-4 col-md-6">
                                   <div className="address-box">
                                     <div className="bank-logo">
-                                      <img src="../assets/images/bank-logo.png"
+                                      <img src="/assets/images/bank-logo.png"
                                         className="bank-logo" />
-                                      <img src="../assets/images/visa.png"
+                                      <img src="/assets/images/visa.png"
                                         className="network-logo" />
                                     </div>
                                     <div className="card-number">
@@ -600,9 +600,9 @@ const User = () => {
                                 <div className="select-box col-xl-4 col-md-6">
                                   <div className="address-box">
                                     <div className="bank-logo">
-                                      <img src="../assets/images/bank-logo1.png"
+                                      <img src="/assets/images/bank-logo1.png"
                                         className="bank-logo" />
-                                      <img src="../assets/images/visa.png"
+                                      <img src="/assets/images/visa.png"
                                         className="network-logo" />
                                     </div>
                                     <div className="card-number">
@@ -800,7 +800,7 @@ const User = () => {
                                       <div className="form-check">
                                         <input className="radio_animated form-check-input"
                                           type="radio" name="exampleRadios"
-                                          id="exampleRadios1" value="option1" checked />
+                                          id="exampleRadios1" defaultValue="option1" checked />
                                         <label className="form-check-label"
                                           for="exampleRadios1">
                                           Allow Desktop Notifications
@@ -809,7 +809,7 @@ const User = () => {
                                       <div className="form-check">
                                         <input className="radio_animated form-check-input"
                                           type="radio" name="exampleRadios"
-                                          id="exampleRadios2" value="option2" />
+                                          id="exampleRadios2" defaultValue="option2" />
                                         <label className="form-check-label"
                                           for="exampleRadios2">
                                           Enable Notifications
@@ -818,7 +818,7 @@ const User = () => {
                                       <div className="form-check">
                                         <input className="radio_animated form-check-input"
                                           type="radio" name="exampleRadios"
-                                          id="exampleRadios3" value="option3" />
+                                          id="exampleRadios3" defaultValue="option3" />
                                         <label className="form-check-label"
                                           for="exampleRadios3">
                                           Get notification for my own activity
@@ -827,7 +827,7 @@ const User = () => {
                                       <div className="form-check">
                                         <input className="radio_animated form-check-input"
                                           type="radio" name="exampleRadios"
-                                          id="exampleRadios4" value="option4" />
+                                          id="exampleRadios4" defaultValue="option4" />
                                         <label className="form-check-label"
                                           for="exampleRadios4">
                                           DND
@@ -843,7 +843,7 @@ const User = () => {
                                       <div className="form-check">
                                         <input className="radio_animated form-check-input"
                                           type="radio" name="exampleRadios1"
-                                          id="exampleRadios4" value="option4" checked />
+                                          id="exampleRadios4" defaultValue="option4" checked />
                                         <label className="form-check-label"
                                           for="exampleRadios4">
                                           I have a privacy concern
@@ -852,7 +852,7 @@ const User = () => {
                                       <div className="form-check">
                                         <input className="radio_animated form-check-input"
                                           type="radio" name="exampleRadios1"
-                                          id="exampleRadios5" value="option5" />
+                                          id="exampleRadios5" defaultValue="option5" />
                                         <label className="form-check-label"
                                           for="exampleRadios5">
                                           This is temporary
@@ -861,7 +861,7 @@ const User = () => {
                                       <div className="form-check">
                                         <input className="radio_animated form-check-input"
                                           type="radio" name="exampleRadios1"
-                                          id="exampleRadios6" value="option6" />
+                                          id="exampleRadios6" defaultValue="option6" />
                                         <label className="form-check-label"
                                           for="exampleRadios6">
                                           other
@@ -880,7 +880,7 @@ const User = () => {
                                       <div className="form-check">
                                         <input className="radio_animated form-check-input"
                                           type="radio" name="exampleRadios3"
-                                          id="exampleRadios7" value="option7" checked />
+                                          id="exampleRadios7" defaultValue="option7" checked />
                                         <label className="form-check-label"
                                           for="exampleRadios7">
                                           No longer usable
@@ -889,7 +889,7 @@ const User = () => {
                                       <div className="form-check">
                                         <input className="radio_animated form-check-input"
                                           type="radio" name="exampleRadios3"
-                                          id="exampleRadios8" value="option8" />
+                                          id="exampleRadios8" defaultValue="option8" />
                                         <label className="form-check-label"
                                           for="exampleRadios8">
                                           Want to switch on other account
@@ -898,7 +898,7 @@ const User = () => {
                                       <div className="form-check">
                                         <input className="radio_animated form-check-input"
                                           type="radio" name="exampleRadios3"
-                                          id="exampleRadios9" value="option9" />
+                                          id="exampleRadios9" defaultValue="option9" />
                                         <label className="form-check-label"
                                           for="exampleRadios9">
                                           other

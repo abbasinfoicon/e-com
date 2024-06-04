@@ -1,33 +1,12 @@
 import React from 'react'
 import { BarChart, DoughnutChart, LineChart, PieChart, SingleLineChart } from '@/components/backend/Chart'
 import Link from 'next/link'
+import Breadcrumb from '@/components/backend/Breadcrumb'
 
 const Dashboard = () => {
     return (
         <div className="page-body">
-            <div className="container-fluid">
-                <div className="page-header">
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <div className="page-header-left">
-                                <h3>Dashboard
-                                    <small>Multikart Admin panel</small>
-                                </h3>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <ol className="breadcrumb pull-right">
-                                <li className="breadcrumb-item">
-                                    <Link href="index.html">
-                                        <i className="fa fa-home"></i>
-                                    </Link>
-                                </li>
-                                <li className="breadcrumb-item active">Dashboard</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <Breadcrumb title="Dashboard" subtitle="Multikart Admin panel"/>
 
             <div className="container-fluid">
                 <div className="row">

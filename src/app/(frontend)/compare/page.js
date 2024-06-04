@@ -52,7 +52,7 @@ const Compare = () => {
                                         </button>
                                         <div className="img-secton">
                                             <div>
-                                                <img src="../assets/images/pro3/1.jpg" className="img-fluid bg-img"
+                                                <img src="/assets/images/pro3/1.jpg" className="img-fluid bg-img"
                                                     alt="" />
                                             </div>
                                             <Link href="#">
@@ -121,7 +121,7 @@ const Compare = () => {
                                         </button>
                                         <div className="img-secton">
                                             <div>
-                                                <img src="../assets/images/pro3/33.jpg"
+                                                <img src="/assets/images/pro3/33.jpg"
                                                     className="img-fluid bg-img" alt="" />
                                             </div>
                                             <Link href="#">
@@ -190,7 +190,7 @@ const Compare = () => {
                                         </button>
                                         <div className="img-secton">
                                             <div>
-                                                <img src="../assets/images/pro3/35.jpg"
+                                                <img src="/assets/images/pro3/35.jpg"
                                                     className="img-fluid bg-img" alt="" />
                                             </div>
                                             <Link href="#">
@@ -259,7 +259,7 @@ const Compare = () => {
                                         </button>
                                         <div className="img-secton">
                                             <div>
-                                                <img src="../assets/images/pro3/27.jpg"
+                                                <img src="/assets/images/pro3/27.jpg"
                                                     className="img-fluid bg-img" alt="" />
                                             </div>
                                             <Link href="#">
@@ -328,7 +328,7 @@ const Compare = () => {
                                         </button>
                                         <div className="img-secton">
                                             <div>
-                                                <img src="../assets/images/pro3/1.jpg" className="img-fluid bg-img"
+                                                <img src="/assets/images/pro3/1.jpg" className="img-fluid bg-img"
                                                     alt="" />
                                             </div>
                                             <Link href="#">
