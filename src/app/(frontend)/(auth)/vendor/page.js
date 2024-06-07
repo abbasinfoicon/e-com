@@ -547,7 +547,7 @@ const page = () => {
                                                                                     type="radio" name="exampleRadios"
                                                                                     id="exampleRadios1" defaultValue="option1" checked />
                                                                                 <label className="form-check-label"
-                                                                                    for="exampleRadios1">
+                                                                                    htmlFor="exampleRadios1">
                                                                                     Allow Desktop Notifications
                                                                                 </label>
                                                                             </div>
@@ -556,7 +556,7 @@ const page = () => {
                                                                                     type="radio" name="exampleRadios"
                                                                                     id="exampleRadios2" defaultValue="option2" />
                                                                                 <label className="form-check-label"
-                                                                                    for="exampleRadios2">
+                                                                                    htmlFor="exampleRadios2">
                                                                                     Enable Notifications
                                                                                 </label>
                                                                             </div>
@@ -565,7 +565,7 @@ const page = () => {
                                                                                     type="radio" name="exampleRadios"
                                                                                     id="exampleRadios3" defaultValue="option3" />
                                                                                 <label className="form-check-label"
-                                                                                    for="exampleRadios3">
+                                                                                    htmlFor="exampleRadios3">
                                                                                     Get notification for my own activity
                                                                                 </label>
                                                                             </div>
@@ -574,7 +574,7 @@ const page = () => {
                                                                                     type="radio" name="exampleRadios"
                                                                                     id="exampleRadios4" defaultValue="option4" />
                                                                                 <label className="form-check-label"
-                                                                                    for="exampleRadios4">
+                                                                                    htmlFor="exampleRadios4">
                                                                                     DND
                                                                                 </label>
                                                                             </div>
@@ -590,7 +590,7 @@ const page = () => {
                                                                                     type="radio" name="exampleRadios1"
                                                                                     id="exampleRadios4" defaultValue="option4" checked />
                                                                                 <label className="form-check-label"
-                                                                                    for="exampleRadios4">
+                                                                                    htmlFor="exampleRadios4">
                                                                                     I have a privacy concern
                                                                                 </label>
                                                                             </div>
@@ -599,7 +599,7 @@ const page = () => {
                                                                                     type="radio" name="exampleRadios1"
                                                                                     id="exampleRadios5" defaultValue="option5" />
                                                                                 <label className="form-check-label"
-                                                                                    for="exampleRadios5">
+                                                                                    htmlFor="exampleRadios5">
                                                                                     This is temporary
                                                                                 </label>
                                                                             </div>
@@ -608,7 +608,7 @@ const page = () => {
                                                                                     type="radio" name="exampleRadios1"
                                                                                     id="exampleRadios6" defaultValue="option6" />
                                                                                 <label className="form-check-label"
-                                                                                    for="exampleRadios6">
+                                                                                    htmlFor="exampleRadios6">
                                                                                     other
                                                                                 </label>
                                                                             </div>
@@ -627,7 +627,7 @@ const page = () => {
                                                                                     type="radio" name="exampleRadios3"
                                                                                     id="exampleRadios7" defaultValue="option7" checked />
                                                                                 <label className="form-check-label"
-                                                                                    for="exampleRadios7">
+                                                                                    htmlFor="exampleRadios7">
                                                                                     No longer usable
                                                                                 </label>
                                                                             </div>
@@ -636,7 +636,7 @@ const page = () => {
                                                                                     type="radio" name="exampleRadios3"
                                                                                     id="exampleRadios8" defaultValue="option8" />
                                                                                 <label className="form-check-label"
-                                                                                    for="exampleRadios8">
+                                                                                    htmlFor="exampleRadios8">
                                                                                     Want to switch on other account
                                                                                 </label>
                                                                             </div>
@@ -645,7 +645,7 @@ const page = () => {
                                                                                     type="radio" name="exampleRadios3"
                                                                                     id="exampleRadios9" defaultValue="option9" />
                                                                                 <label className="form-check-label"
-                                                                                    for="exampleRadios9">
+                                                                                    htmlFor="exampleRadios9">
                                                                                     other
                                                                                 </label>
                                                                             </div>

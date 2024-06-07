@@ -274,21 +274,21 @@ const ProductDetails = () => {
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
-                                                <label for="name">Name</label>
+                                                <label htmlFor="name">Name</label>
                                                 <input type="text" className="form-control" id="name" placeholder="Enter Your name"
                                                     required />
                                             </div>
                                             <div className="col-md-6">
-                                                <label for="email">Email</label>
+                                                <label htmlFor="email">Email</label>
                                                 <input type="text" className="form-control" id="email" placeholder="Email" required />
                                             </div>
                                             <div className="col-md-12">
-                                                <label for="review">Review Title</label>
+                                                <label htmlFor="review">Review Title</label>
                                                 <input type="text" className="form-control" id="review"
                                                     placeholder="Enter your Review Subjects" required />
                                             </div>
                                             <div className="col-md-12">
-                                                <label for="review">Review Title</label>
+                                                <label htmlFor="review">Review Title</label>
                                                 <textarea className="form-control" placeholder="Wrire Your Testimonial Here"
                                                     id="exampleFormControlTextarea1" rows="6"></textarea>
                                             </div>

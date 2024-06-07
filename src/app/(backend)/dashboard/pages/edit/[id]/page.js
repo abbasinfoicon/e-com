@@ -13,7 +13,7 @@ const EditPage = () => {
                         <form className="needs-validation">
                             <h4>General</h4>
                             <div className="form-group row">
-                                <label for="" className="col-xl-3 col-md-4"><span>*</span> Name</label>
+                                <label htmlFor="" className="col-xl-3 col-md-4"><span>*</span> Name</label>
                                 <div className="col-xl-8 col-md-7">
                                     <input className="form-control" id="" type="text" />
                                 </div>
@@ -33,14 +33,14 @@ const EditPage = () => {
                                 <div className="col-xl-8 col-md-7">
                                     <div className="checkbox checkbox-primary ">
                                         <input id="checkbox-primary-2" type="checkbox" data-original-title="" title="" />
-                                        <label for="checkbox-primary-2">Enable the Page</label>
+                                        <label htmlFor="checkbox-primary-2">Enable the Page</label>
                                     </div>
                                 </div>
                             </div>
 
                             <h4>SEO</h4>
                             <div className="form-group row">
-                                <label for="" className="col-xl-3 col-md-4">Meta Title</label>
+                                <label htmlFor="" className="col-xl-3 col-md-4">Meta Title</label>
                                 <div className="col-xl-8 col-md-7">
                                     <input className="form-control" id="" type="text" />
                                 </div>

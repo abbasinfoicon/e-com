@@ -13,7 +13,7 @@ const EditMenu = () => {
                             <div className="card-body">
                                 <form className="needs-validation">
                                     <div className="form-group row">
-                                        <label for="" className="col-xl-3 col-md-4"><span>*</span>Menu Name</label>
+                                        <label htmlFor="" className="col-xl-3 col-md-4"><span>*</span>Menu Name</label>
                                         <div className="col-md-8">
                                             <input className="form-control" id="" type="text" required="" />
                                         </div>
@@ -25,7 +25,7 @@ const EditMenu = () => {
                                             <div className="checkbox checkbox-primary">
                                                 <input id="checkbox-primary-2" type="checkbox"
                                                     data-original-title="" title="" />
-                                                <label for="checkbox-primary-2">Enable the Menu</label>
+                                                <label htmlFor="checkbox-primary-2">Enable the Menu</label>
                                             </div>
                                         </div>
                                     </div>

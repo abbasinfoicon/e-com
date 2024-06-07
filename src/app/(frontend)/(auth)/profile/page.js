@@ -14,25 +14,25 @@ const Profile = () => {
                             <form className="theme-form">
                                 <div className="form-row row">
                                     <div className="col-md-6">
-                                        <label for="name">First Name</label>
+                                        <label htmlFor="name">First Name</label>
                                         <input type="text" className="form-control" id="name" placeholder="Enter Your name"
                                             required="" />
                                     </div>
                                     <div className="col-md-6">
-                                        <label for="email">Last Name</label>
+                                        <label htmlFor="email">Last Name</label>
                                         <input type="text" className="form-control" id="last-name" placeholder="Email" required="" />
                                     </div>
                                     <div className="col-md-6">
-                                        <label for="review">Phone number</label>
+                                        <label htmlFor="review">Phone number</label>
                                         <input type="text" className="form-control" id="review" placeholder="Enter your number"
                                             required="" />
                                     </div>
                                     <div className="col-md-6">
-                                        <label for="email">Email</label>
+                                        <label htmlFor="email">Email</label>
                                         <input type="text" className="form-control" id="email" placeholder="Email" required="" />
                                     </div>
                                     <div className="col-md-12">
-                                        <label for="review">Write Your Message</label>
+                                        <label htmlFor="review">Write Your Message</label>
                                         <textarea className="form-control mb-0" placeholder="Write Your Message"
                                             id="exampleFormControlTextarea1" rows="6"></textarea>
                                     </div>
@@ -51,22 +51,22 @@ const Profile = () => {
                             <form className="theme-form">
                                 <div className="form-row row">
                                     <div className="col-md-6">
-                                        <label for="name">flat / plot</label>
+                                        <label htmlFor="name">flat / plot</label>
                                         <input type="text" className="form-control" id="home-ploat" placeholder="company name"
                                             required="" />
                                     </div>
                                     <div className="col-md-6">
-                                        <label for="name">Address *</label>
+                                        <label htmlFor="name">Address *</label>
                                         <input type="text" className="form-control" id="address-two" placeholder="Address"
                                             required="" />
                                     </div>
                                     <div className="col-md-6">
-                                        <label for="email">Zip Code *</label>
+                                        <label htmlFor="email">Zip Code *</label>
                                         <input type="text" className="form-control" id="zip-code" placeholder="zip-code"
                                             required="" />
                                     </div>
                                     <div className="col-md-6 select_input">
-                                        <label for="review">Country *</label>
+                                        <label htmlFor="review">Country *</label>
                                         <select className="form-control" size="1">
                                             <option defaultValue="India">India</option>
                                             <option defaultValue="UAE">UAE</option>
@@ -75,11 +75,11 @@ const Profile = () => {
                                         </select>
                                     </div>
                                     <div className="col-md-6">
-                                        <label for="review">City *</label>
+                                        <label htmlFor="review">City *</label>
                                         <input type="text" className="form-control" id="city" placeholder="City" required="" />
                                     </div>
                                     <div className="col-md-6">
-                                        <label for="review">Region/State *</label>
+                                        <label htmlFor="review">Region/State *</label>
                                         <input type="text" className="form-control" id="region-state" placeholder="Region/state"
                                             required="" />
                                     </div>

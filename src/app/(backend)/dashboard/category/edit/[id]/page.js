@@ -17,14 +17,14 @@ const EditCategory = () => {
                                         <form className="needs-validation add-product-form">
                                             <div className="form">
                                                 <div className="form-group mb-3 row">
-                                                    <label for="name" className="col-xl-3 col-sm-4 mb-0">Name :</label>
+                                                    <label htmlFor="name" className="col-xl-3 col-sm-4 mb-0">Name :</label>
                                                     <div className="col-xl-8 col-sm-7">
                                                         <input className="form-control" id="name" type="text" required="" />
                                                     </div>
                                                 </div>
 
                                                 <div className="form-group mb-3 row">
-                                                    <label for="price" className="col-xl-3 col-sm-4 mb-0">Price :</label>
+                                                    <label htmlFor="price" className="col-xl-3 col-sm-4 mb-0">Price :</label>
                                                     <div className="col-xl-8 col-sm-7">
                                                         <input className="form-control" id="price"
                                                             type="text" required="" />
@@ -32,7 +32,7 @@ const EditCategory = () => {
                                                 </div>
 
                                                 <div className="form-group mb-3 row">
-                                                    <label for="category" className="col-xl-3 col-sm-4 mb-0">Category :</label>
+                                                    <label htmlFor="category" className="col-xl-3 col-sm-4 mb-0">Category :</label>
                                                     <div className="col-xl-8 col-sm-7">
                                                         <input className="form-control" id="category" type="text" required="" />
                                                     </div>
@@ -41,7 +41,7 @@ const EditCategory = () => {
 
                                             <div className="form">
                                                 <div className="form-group row">
-                                                    <label for="status" className="col-xl-3 col-sm-4 mb-0">Status :</label>
+                                                    <label htmlFor="status" className="col-xl-3 col-sm-4 mb-0">Status :</label>
                                                     <div className="col-xl-8 col-sm-7">
                                                         <select className="form-control digits" id="status">
                                                             <option>Success</option>

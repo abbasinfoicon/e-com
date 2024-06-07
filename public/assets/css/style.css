@@ -20792,7 +20792,8 @@ header.stickycls {
     font-weight: 600
 }
 
-.register-page .theme-card .theme-form input {
+.register-page .theme-card .theme-form input,
+.register-page .theme-card .theme-form select {
     border-color: #eaeaea;
     font-size: 12px;
     padding: 17px 25px;
@@ -24583,9 +24584,11 @@ header.stickycls {
     background-color: #fff;
     padding: 10px 0
 }
-.faq-tab .react-tabs__tab-list{
+
+.faq-tab .react-tabs__tab-list {
     padding: 0;
 }
+
 .faq-tab .nav-tabs .nav-item,
 .faq-tab .react-tabs__tab-list li {
     display: block;
@@ -41071,4 +41074,8 @@ body.rtl .account-setting {
 .react-tabs__tab-list .react-tabs__tab--selected {
     color: var(--theme-color);
     border-bottom: 1px solid;
+}
+
+.theme-card form textarea.form-control {
+    min-height: 150px;
 }

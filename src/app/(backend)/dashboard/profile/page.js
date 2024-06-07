@@ -116,13 +116,13 @@ const Profile = () => {
                       <h5 className="f-w-600">Notifications</h5>
                       <div className="row">
                         <div className="col">
-                          <label className="d-block" for="chk-ani">
+                          <label className="d-block" htmlFor="chk-ani">
                             <input className="checkbox_animated" id="chk-ani" type="checkbox" /> Allow Desktop Notifications </label>
-                          <label className="d-block" for="chk-ani1">
+                          <label className="d-block" htmlFor="chk-ani1">
                             <input className="checkbox_animated" id="chk-ani1" type="checkbox" /> Enable Notifications </label>
-                          <label className="d-block" for="chk-ani2">
+                          <label className="d-block" htmlFor="chk-ani2">
                             <input className="checkbox_animated" id="chk-ani2" type="checkbox" /> Get notification for my own activity </label>
-                          <label className="d-block mb-0" for="chk-ani3">
+                          <label className="d-block mb-0" htmlFor="chk-ani3">
                             <input className="checkbox_animated" id="chk-ani3" type="checkbox" checked="" /> DND </label>
                         </div>
                       </div>
@@ -131,11 +131,11 @@ const Profile = () => {
                       <h5 className="f-w-600">Deactivate Account</h5>
                       <div className="row">
                         <div className="col">
-                          <label className="d-block" for="edo-ani">
+                          <label className="d-block" htmlFor="edo-ani">
                             <input className="radio_animated" id="edo-ani" type="radio" name="rdo-ani" checked="" /> I have a privacy concern </label>
-                          <label className="d-block" for="edo-ani1">
+                          <label className="d-block" htmlFor="edo-ani1">
                             <input className="radio_animated" id="edo-ani1" type="radio" name="rdo-ani" /> This is temporary </label>
-                          <label className="d-block mb-0" for="edo-ani2">
+                          <label className="d-block mb-0" htmlFor="edo-ani2">
                             <input className="radio_animated" id="edo-ani2" type="radio" name="rdo-ani" checked="" /> Other </label>
                         </div>
                       </div>
@@ -145,11 +145,11 @@ const Profile = () => {
                       <h5 className="f-w-600">Delete Account</h5>
                       <div className="row">
                         <div className="col">
-                          <label className="d-block" for="edo-ani3">
+                          <label className="d-block" htmlFor="edo-ani3">
                             <input className="radio_animated" id="edo-ani3" type="radio" name="rdo-ani1" checked="" /> No longer usable </label>
-                          <label className="d-block" for="edo-ani4">
+                          <label className="d-block" htmlFor="edo-ani4">
                             <input className="radio_animated" id="edo-ani4" type="radio" name="rdo-ani1" /> Want to switch on other account </label>
-                          <label className="d-block mb-0" for="edo-ani5">
+                          <label className="d-block mb-0" htmlFor="edo-ani5">
                             <input className="radio_animated" id="edo-ani5" type="radio" name="rdo-ani1" checked="" /> Other </label>
                         </div>
                       </div>
