@@ -15,7 +15,8 @@ export function middleware(req) {
         '/user',
         '/user/:path*',
         '/vendor',
-        '/vendor/:path*'
+        '/vendor/:path*',
+        '/wishlist'
     ];
 
     const isPublicPath = publicPaths.includes(path);
@@ -48,6 +49,7 @@ export const config = {
         '/login',
         '/register',
         '/forgot-password',
-        '/reset-password'
+        '/reset-password',
+        '/wishlist'
     ],
 };

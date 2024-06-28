@@ -28,9 +28,12 @@ export async function addProduct(formData) {
         const price = formData.get("price");
         const oldprice = formData.get("oldprice");
         const prdcode = formData.get("prdcode");
-        const size = formData.get("size");
+        const brand = formData.get("brand");
+        const size = JSON.parse(formData.get("size"));
+        const colors = JSON.parse(formData.get("colors"));
         const totalProducts = formData.get("totalProducts");
         const description = formData.get("description");
+        const specification = formData.get("specification");
         const images = formData.getAll("img");
 
         const imgNames = [];
@@ -42,11 +45,11 @@ export async function addProduct(formData) {
             imgNames.push(imgName);
         }
 
-        if (!title || !price || !oldprice || !prdcode || !size || !totalProducts || !description) {
+        if (!title || !price || !oldprice || !prdcode || !size || !colors || !totalProducts || !description) {
             return { message: 'All fields required ', status: 400 };
         }
 
-        await productModel.create({ title, price, oldprice, prdcode, size, totalProducts, description, img: imgNames });
+        await productModel.create({ title, price, oldprice, prdcode, brand, size, colors, totalProducts, description, specification, img: imgNames });
         revalidateTag("/dashboard/products");
 
         return { message: 'Product added successfully', status: 201, redirectTo: "/dashboard/products" };
@@ -64,9 +67,12 @@ export async function edtProduct(id, formData) {
         const price = formData.get("price");
         const oldprice = formData.get("oldprice");
         const prdcode = formData.get("prdcode");
-        const size = formData.get("size");
+        const brand = formData.get("brand");
+        const size = JSON.parse(formData.get("size"));
+        const colors = JSON.parse(formData.get("colors"));
         const totalProducts = formData.get("totalProducts");
         const description = formData.get("description");
+        const specification = formData.get("specification");
         const img = formData.getAll("img");
 
         const imgNames = [];
@@ -77,7 +83,7 @@ export async function edtProduct(id, formData) {
             imgNames.push(image.name);
         }
 
-        await productModel.findByIdAndUpdate(id, { title, price, oldprice, prdcode, size, totalProducts, description, img: imgNames.length > 0 ? imgNames : undefined, });
+        await productModel.findByIdAndUpdate(id, { title, price, oldprice, prdcode, brand, size, colors, totalProducts, description, specification, img: imgNames.length > 0 ? imgNames : undefined, });
         revalidatePath("/dashboard/products");
 
         return { message: 'Product updated successfully', status: 202, redirectTo: "/dashboard/products" };

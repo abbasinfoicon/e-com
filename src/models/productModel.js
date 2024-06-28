@@ -23,7 +23,11 @@ const productSchema = new mongoose.Schema({
         required: true,
     },
     size: {
-        type: String,
+        type: [String],
+        required: true,
+    },
+    colors: {
+        type: [String],
         required: true,
     },
     totalProducts: {
@@ -33,6 +37,12 @@ const productSchema = new mongoose.Schema({
     description: {
         type: String,
         required: true,
+    },
+    specification: {
+        type: String,
+    },
+    brand: {
+        type: String,
     },
 }, {
     timestamps: true

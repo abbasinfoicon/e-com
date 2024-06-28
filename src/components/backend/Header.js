@@ -128,12 +128,6 @@ const AdminHeader = () => {
                                 <li className="txt-dark"><Link href="#">All</Link> notification</li>
                             </ul>
                         </li>
-                        <li>
-                            <Link href="#">
-                                <i className="right_side_toggle fa fa-comments-o"></i>
-                                <span className="dot"></span>
-                            </Link>
-                        </li>
                         <li className="onhover-dropdown">
                             <div className="media align-items-center">
                                 <img className="align-self-center pull-right img-50 "

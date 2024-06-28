@@ -1,30 +1,36 @@
 'use client'
+import { setUserData } from '@/lib/features/userSlice';
 import Link from 'next/link'
 import { useRouter } from 'next/navigation';
 import React from 'react'
+import { useDispatch } from 'react-redux';
 import { toast } from 'react-toastify';
 
 const LoginForm = ({ loginUser }) => {
     const router = useRouter();
+    const dispatch = useDispatch();
 
-    const handleSubmit = async (event) => {
-        event.preventDefault();
-        const formData = new FormData(event.target);
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        const formData = new FormData(e.target);
 
-        const response = await loginUser(formData);
+        const res = await loginUser(formData);
 
-        if (response.status === 201 || response.status === 202) {
-            toast.success(response.message);
+        if (res.status === 201 || res.status === 202) {
+            toast.success(res.message);
 
-            if (response.role == "user") {
-                router.push(response.redirectTo);
-            } else if (response.role == "vendor") {
+            const { createdAt, updatedAt, ...dataWithoutTimestamps } = res.data;
+            dispatch(setUserData(dataWithoutTimestamps));
+
+            if (res.data.role === "user") {
+                router.push('/user');
+            } else if (res.data.role === "vendor") {
                 router.push('/vendor');
             } else {
                 router.push('/dashboard/user');
             }
         } else {
-            toast.error(response.message);
+            toast.error(res.message);
         }
     };
 

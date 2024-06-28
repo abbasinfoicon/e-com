@@ -1,6 +1,6 @@
 import Breadcrumb from '@/components/backend/Breadcrumb'
 import React from 'react'
-import Form from '../../Form'
+import Form from '../../add/Form'
 import { getSingleProduct } from '@/actions/prdtAction';
 
 const EditProduct = async ({ params }) => {

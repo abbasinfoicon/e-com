@@ -23,10 +23,6 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    cpassword: {
-        type: String,
-        required: true,
-    },
     img: {
         type: String,
     },
@@ -40,6 +36,19 @@ const userSchema = new mongoose.Schema({
         type: String,
     },
     role: {
+        type: String,
+        default: 'user'
+    },
+    country: {
+        type: String,
+    },
+    state: {
+        type: String,
+    },
+    city: {
+        type: String,
+    },
+    zip: {
         type: String,
     },
 }, {

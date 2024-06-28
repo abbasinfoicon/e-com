@@ -1,8 +1,17 @@
+'use client'
 import Breadcrumb from '@/components/Breadcrumb'
 import Link from 'next/link'
 import React from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 
 const Wishlist = () => {
+  const wishlistItems = useSelector((state) => state.wishlist.items);
+  const dispatch = useDispatch();
+
+  const handleRemoveWishlist = (item) => {
+    dispatch(removeFromWishlist(item));
+  };
+
   return (
     <>
       <Breadcrumb title="Wishlist" />
@@ -21,96 +30,63 @@ const Wishlist = () => {
                     <th scope="col">action</th>
                   </tr>
                 </thead>
+
                 <tbody>
-                  <tr>
-                    <td>
-                      <Link href="#"><img src="/assets/images/pro3/1.jpg" alt="" /></Link>
-                    </td>
-                    <td><Link href="#">cotton shirt</Link>
-                      <div className="mobile-cart-content row">
-                        <div className="col">
-                          <p>in stock</p>
-                        </div>
-                        <div className="col">
-                          <h2 className="td-color">$63.00</h2>
-                        </div>
-                        <div className="col">
-                          <h2 className="td-color"><Link href="#" className="icon me-1"><i className="ti-close"></i>
-                          </Link><Link href="/cart" className="cart"><i className="ti-shopping-cart"></i></Link></h2>
-                        </div>
-                      </div>
-                    </td>
-                    <td>
-                      <h2>$63.00</h2>
-                    </td>
-                    <td>
-                      <p>in stock</p>
-                    </td>
-                    <td><Link href="#" className="icon me-3"><i className="ti-close"></i> </Link>
-                      <Link href="/cart" className="cart"><i className="ti-shopping-cart"></i></Link></td>
-                  </tr>
-                </tbody>
-                <tbody>
-                  <tr>
-                    <td>
-                      <Link href="#"><img src="/assets/images/pro3/27.jpg" alt="" /></Link>
-                    </td>
-                    <td><Link href="#">cotton shirt</Link>
-                      <div className="mobile-cart-content row">
-                        <div className="col">
-                          <p>in stock</p>
-                        </div>
-                        <div className="col">
-                          <h2 className="td-color">$63.00</h2>
-                        </div>
-                        <div className="col">
-                          <h2 className="td-color"><Link href="#" className="icon me-1"><i className="ti-close"></i>
-                          </Link><Link href="/cart" className="cart"><i className="ti-shopping-cart"></i></Link></h2>
-                        </div>
-                      </div>
-                    </td>
-                    <td>
-                      <h2>$63.00</h2>
-                    </td>
-                    <td>
-                      <p>in stock</p>
-                    </td>
-                    <td><Link href="#" className="icon me-3"><i className="ti-close"></i> </Link><Link href="/cart"
-                      className="cart"><i className="ti-shopping-cart"></i></Link></td>
-                  </tr>
-                </tbody>
-                <tbody>
-                  <tr>
-                    <td>
-                      <Link href="#"><img src="/assets/images/pro3/35.jpg" alt="" /></Link>
-                    </td>
-                    <td><Link href="#">cotton shirt</Link>
-                      <div className="mobile-cart-content row">
-                        <div className="col">
-                          <p>in stock</p>
-                        </div>
-                        <div className="col">
-                          <h2 className="td-color">$63.00</h2>
-                        </div>
-                        <div className="col">
-                          <h2 className="td-color"><Link href="#" className="icon me-1"><i className="ti-close"></i>
-                          </Link><Link href="/cart" className="cart"><i className="ti-shopping-cart"></i></Link></h2>
-                        </div>
-                      </div>
-                    </td>
-                    <td>
-                      <h2>$63.00</h2>
-                    </td>
-                    <td>
-                      <p>in stock</p>
-                    </td>
-                    <td><Link href="#" className="icon me-3"><i className="ti-close"></i> </Link><Link href="#"
-                      className="cart"><i className="ti-shopping-cart"></i></Link></td>
-                  </tr>
+                  {
+                    wishlistItems.length > 0 ? wishlistItems.map((item, index) => (
+                      <tr key={index}>
+                        <td>
+                          <Link href={`/products/${item._id}`}>
+                            <img src={`/assets/images/upload/${item.img[0]}`} alt={item.title} />
+                          </Link>
+                        </td>
+                        <td>
+                          <Link href={`/products/${item._id}`}>{item.title}</Link>
+                          <div className="mobile-cart-content row">
+                            <div className="col">
+                              <p>{item.availability ? 'In stock' : 'Out of stock'}</p>
+                            </div>
+                            <div className="col">
+                              <h2 className="td-color">${item.price}.00</h2>
+                            </div>
+                            <div className="col">
+                              <h2 className="td-color">
+                                <button className="icon me-1" onClick={() => handleRemoveWishlist(item)}>
+                                  <i className="ti-close"></i>
+                                </button>
+                                <Link href="/cart" className="cart">
+                                  <i className="ti-shopping-cart"></i>
+                                </Link>
+                              </h2>
+                            </div>
+                          </div>
+                        </td>
+                        <td>
+                          <h2>${item.price}.00</h2>
+                        </td>
+                        <td>
+                          <p>{item.availability ? 'In stock' : 'Out of stock'}</p>
+                        </td>
+                        <td>
+                          <button className="icon me-3" onClick={() => handleRemoveWishlist(item)}>
+                            <i className="ti-close"></i>
+                          </button>
+                          <Link href="/cart" className="cart">
+                            <i className="ti-shopping-cart"></i>
+                          </Link>
+                        </td>
+                      </tr>
+                    )) : (
+                      <tr>
+                        <td colSpan="5">No items in the wishlist.</td>
+                      </tr>
+                    )
+                  }
                 </tbody>
               </table>
             </div>
           </div>
+
           <div className="row wishlist-buttons">
             <div className="col-12">
               <Link href="/products" className="btn btn-solid">continue shopping</Link>

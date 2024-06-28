@@ -236,7 +236,7 @@ const Sidebar = () => {
                     <li>
                         <Link className="sidebar-header" href="/login">
                             <i className='fa fa-sign-in'></i>
-                            <span>Login</span>
+                            <span>Logout</span>
                         </Link>
                     </li>
                 </ul>

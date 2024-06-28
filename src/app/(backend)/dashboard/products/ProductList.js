@@ -45,10 +45,19 @@ const ProductList = ({ data, delProduct }) => {
 
                                     <div className="product-detail">
                                         <Link href={`/dashboard/products/${item._id}`}><h6>{item.title}</h6></Link>
-                                        <p>Ref: {item.prdcode}</p>
+                                        <p>Ref: {item.prdcode} | Brand: {item.brand}</p>
                                         <h4>${item.price}.00 <del>${item.oldprice}.00</del></h4>
 
-                                        <p>Size: {item.size}</p>
+                                        <p>Size: {item.size.map(item => item).join(', ')}</p>
+                                        <p>
+                                            Color: {item.colors && Array.isArray(item.colors) ? (
+                                                item.colors.map((color, index) => (
+                                                    color && <span key={index} className='color' style={{ backgroundColor: color }}></span>
+                                                ))
+                                            ) : (
+                                                <span>No colors available</span>
+                                            )}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +67,7 @@ const ProductList = ({ data, delProduct }) => {
             }
 
             <DeleteModal open={open} setOpen={setOpen} delProduct={delProduct} deleteId={deleteId} setDeleteId={setDeleteId} />
-        </div>
+        </div >
     )
 }
 

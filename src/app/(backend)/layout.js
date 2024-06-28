@@ -1,6 +1,7 @@
 import AdminFooter from "@/components/backend/Footer";
 import AdminHeader from "@/components/backend/Header";
 import Sidebar from "@/components/backend/Sidebar";
+import "../../../public/assets/css/admin.css";
 
 
 export const metadata = {

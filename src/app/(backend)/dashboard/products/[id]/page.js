@@ -2,8 +2,8 @@ import { delProduct, getSingleProduct } from '@/actions/prdtAction'
 import Breadcrumb from '@/components/backend/Breadcrumb'
 import Link from 'next/link'
 import React from 'react'
-import ProductSlider from './ProductSlider'
 import DeleteProduct from './DeleteProduct'
+import { SingleProductSlider } from '@/components/Sliders'
 
 const ProductDetail = async ({ params }) => {
   const { id } = params;
@@ -16,7 +16,9 @@ const ProductDetail = async ({ params }) => {
       <div className="container-fluid">
         <div className="card">
           <div className="row product-page-main card-body">
-            <ProductSlider image={data} />
+            <div className="col-xl-4">
+              <SingleProductSlider data={data} />
+            </div>
 
             <div className="col-xl-8">
               <div className="product-page-details product-right mb-0">
@@ -39,7 +41,7 @@ const ProductDetail = async ({ params }) => {
                 </div>
                 <p>Product Code: {data.prdcode}</p>
                 <hr />
-                <h6 className="product-title size-text">select size <span className="pull-right">
+                <h6 className="product-title size-text">Size <span className="pull-right">
                   <button className='btn size-chat btn-primary'>size chart</button>
                 </span>
                 </h6>
@@ -62,10 +64,14 @@ const ProductDetail = async ({ params }) => {
 
                 <div className="size-box">
                   <ul>
-                    <li className={`${data.size === "Small" ? 'active' : ''}`}><Link href="#">s</Link></li>
-                    <li className={`${data.size === "Medium" ? 'active' : ''}`}><Link href="#">m</Link></li>
-                    <li className={`${data.size === "Large" ? 'active' : ''}`}><Link href="#">l</Link></li>
-                    <li className={`${data.size === "Extra Large" ? 'active' : ''}`}><Link href="#">xl</Link></li>
+                    {data.size.map((size, index) => (<li>{size}</li>))}
+                  </ul>
+                </div>
+
+                <h6 className="product-title size-text">Colors</h6>
+                <div className="size-box">
+                  <ul>
+                    {data.colors.map((size, index) => (size && <li style={{ backgroundColor: size, fontSize: '0', width: '23px', height: '23px' }}>{size}</li>))}
                   </ul>
                 </div>
 

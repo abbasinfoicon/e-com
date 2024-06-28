@@ -6338,13 +6338,10 @@ table tbody tr td a .lnr.lnr-trash {
 }
 
 .product-right .size-box ul li {
-    height: 35px;
-    width: 35px;
-    border-radius: 50%;
     margin-right: 10px;
-    cursor: pointer;
     border: 1px solid #efefef;
-    text-align: center
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .product-right .size-box ul li a {
@@ -14634,6 +14631,27 @@ ul.thumbnil-img li {
     border: 1px solid #ccc;
     width: 19%;
     height: 130px;
+    position: relative;
+}
+
+ul.thumbnil-img li:hover button {
+    display: block;
+}
+
+button.remove-img {
+    border: 1px solid;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    background: #f00;
+    color: #fff;
+    border-color: #f00;
+    display: none;
+    opacity: 0.6;
+}
+
+button.remove-img:hover {
+    opacity: 1;
 }
 
 ul.thumbnil-img li img {
@@ -14817,6 +14835,16 @@ ul.rating-ul li.active {
 .trigger-btn {
     display: inline-block;
     margin: 100px auto;
+}
+
+.product-box .product-detail p span.color {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin: 0 2px;
+    border: 1px solid #bdbdbd;
 }
 
 /*# sourceMappingURL=style.css.map */

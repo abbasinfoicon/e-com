@@ -5,7 +5,10 @@ import "slick-carousel/slick/slick-theme.css";
 import 'react-tabs/style/react-tabs.css';
 import 'lightbox.js-react/dist/index.css'
 import 'react-toastify/dist/ReactToastify.css';
+import 'react-responsive-modal/styles.css';
+import 'rc-slider/assets/index.css';
 import { ToastContainer } from 'react-toastify';
+import { StoreProvider } from "@/lib/provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,11 +27,12 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" type="text/css" href="/assets/css/vendors/themify-icons.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/vendors/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
-        <link rel="stylesheet" type="text/css" href="/assets/css/admin.css" />
       </head>
       <body className={inter.className}>
-        {children}
-        <ToastContainer />
+        <StoreProvider>
+          {children}
+          <ToastContainer />
+        </StoreProvider>
       </body>
     </html>
   );

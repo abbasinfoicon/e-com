@@ -1,6 +1,6 @@
 import Breadcrumb from '@/components/backend/Breadcrumb'
 import React from 'react'
-import Form from '../Form'
+import Form from './Form'
 
 const AddProduct = () => {
 
